@@ -29,13 +29,14 @@ VIRL Host:
 - 450GB SSD HD
 
 VIRL Lab:
-Node                Subtype Management  IPs 
-lab-acc-asa-01-pri  ASAv                172.16.1.13
-lab-acc-asa-01-sec  ASAv                172.16.1.14
-lab-acc-sw-01       CSR1000v            172.16.1.12
-lab-core-sw-01      NX-OSv              172.16.1.10
-lab-core-sw-02      NX-OSv              172.16.1.11
-lab-mgmt-asa-01     ASAv                172.16.1.15
+| Node | Subtype | Management IPs |
+| ------------------ | -------- | ----------- |
+| lab-acc-asa-01-pri | ASAv | 172.16.1.13 |
+| lab-acc-asa-01-sec | ASAv | 172.16.1.14 |
+| lab-acc-sw-01 | CSR1000v | 172.16.1.12 |
+| lab-core-sw-01 | NX-OSv | 172.16.1.10 |
+| lab-core-sw-02 | NX-OSv | 172.16.1.11 |
+| lab-mgmt-asa-01 | ASAv | 172.16.1.15 |
 
 My NUC has only one NIC, so I use OpenVPN to connect to Managment Network.
 I configured FLAT-1 as Managment Network, to connect direct from my ansible host to the network devices.
