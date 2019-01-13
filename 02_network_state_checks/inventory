@@ -1,0 +1,39 @@
+# Define variables for all devices
+[all:vars]
+ansible_connection=network_cli
+ansible_user=cisco
+ansible_ssh_pass=cisco
+
+[switches:children]
+nxos
+iosxe
+
+[firewall:children]
+asa
+
+# Group of all Cisco ASA
+[asa]
+lab-acc-asa-01-pri ansible_host=172.16.1.13
+lab-acc-asa-01-sec ansible_host=172.16.1.14
+lab-mgmt-asa-01 ansible_host=172.16.1.15
+
+# Group of all Cisco IOS XE
+[iosxe]
+lab-acc-sw-01 ansible_host=172.16.1.12
+
+# Group of all Cisco NX-OS
+[nxos]
+lab-core-sw-01 ansible_host=172.16.1.10
+lab-core-sw-02 ansible_host=172.16.1.11   
+
+#Define group specific variables
+[asa:vars]
+ansible_network_os=asa
+ansible_become_pass=cisco
+
+
+[iosxe:vars]
+ansible_network_os=ios
+
+[nxos:vars]
+ansible_network_os=nxos
