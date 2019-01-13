@@ -43,8 +43,46 @@ I configured FLAT-1 as Managment Network, to connect direct from my ansible host
 
 ## Ansible lab setup
 
-## Connect to devices with ssh
-At first we need to connect to all devices with ssh. To ensure that ssh is correct configure.
+### Connect to devices with ssh
+At first we need to connect to all devices with ssh. To ensure that ssh is correct configure. 
+Cisco VIRL AutoNetkit ssh default configurations are not combatible to actual and hardend ssh client configurations. So we need to log in via console port and need to change the ssh server configuation.
+
+#### Issues IOS XE
+```
+ssh cisco@172.16.1.12
+ssh_dispatch_run_fatal: Connection to 172.16.1.12 port 22: Invalid key length
+```
+```
+lab-acc-sw-01(config)#crypto key generate rsa modulus 2048                      
+% You already have RSA keys defined named lab-acc-sw-01.virl.info.              
+% They will be replaced.                                                        
+                                                                                
+% The key modulus size is 2048 bits                                             
+% Generating 2048 bit RSA keys, keys will be non-exportable...                  
+[OK] (elapsed time was 1 seconds)                                               
+                                                                                
+lab-acc-sw-01(config)#  
+```
+#### Issues ASA
+```
+ssh cisco@172.16.1.13
+Unable to negotiate with 172.16.1.13 port 22: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1
+```
+```
+lab-acc-asa-01-pri(config)# ssh key-exchange group dh-group14-sha1 
+```
+```
+ssh cisco@172.16.1.13
+ssh_dispatch_run_fatal: Connection to 172.16.1.13 port 22: Invalid key length
+```
+```
+lab-acc-asa-01-pri(config)# crypto key generate rsa modulus 2048                                                                                                                                                                                                                                                                                                        
+WARNING: You have a RSA keypair already defined named <Default-RSA-Key>.                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                        
+Do you really want to replace them? [yes/no]: yes                                                                                                                                                                                                                                                                                                                       
+Keypair generation process begin. Please wait...                                                                                                                                                                                                                                                                                                                        
+lab-acc-asa-01-pri(config)# 
+```   
 
 ### Inventory
 Before we can connect the first time with ansible to the device we need to create the inventory file. To connect we will use network_cli which support the most network os, but need *ansible_network_os* as an additional parameter. For this we create the file *inventory*
