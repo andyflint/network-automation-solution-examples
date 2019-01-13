@@ -3,6 +3,7 @@
 ansible_connection=network_cli
 ansible_user=cisco
 ansible_ssh_pass=cisco
+ansible_python_interpreter="/usr/bin/env python"
 
 [switches:children]
 nxos
@@ -30,10 +31,17 @@ lab-core-sw-02 ansible_host=172.16.1.11
 [asa:vars]
 ansible_network_os=asa
 ansible_become_pass=cisco
+platform=cisco_asa
+show_route_command="show route"
 
 
 [iosxe:vars]
 ansible_network_os=ios
+platform=cisco_ios
+show_route_command="show ip route"
 
 [nxos:vars]
 ansible_network_os=nxos
+platform=cisco_nxos
+vlan_command="show vlan"
+show_route_command="show ip route"

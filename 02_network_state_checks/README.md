@@ -18,9 +18,21 @@ The variables ansible_become and ansible_become_mode did not work with asa_facts
 
 There is no module in place to get the routing information so we use *_command to the raw output from the CLI.
 
+### Structure routing information
+
+[Networktocode](https://github.com/networktocode) publish TextFSM filter [templates](https://github.com/networktocode/ntc-templates/tree/master/templates) for different network device on there github account.
+In our lab we can use:
+
+- [cisco_asa_show_route.template](https://github.com/networktocode/ntc-templates/blob/master/templates/cisco_asa_show_route.template)
+- [cisco_ios_show_ip_route.template](https://github.com/networktocode/ntc-templates/blob/master/templates/cisco_ios_show_ip_route.template)
+- [cisco_nxos_show_ip_route.template](https://github.com/networktocode/ntc-templates/blob/master/templates/cisco_nxos_show_ip_route.template)
+
+With [ntc_ansible](https://github.com/networktocode/ntc-ansible) we can get structured information direct from the CLI. Follow the instruction details on the github site.
+
 ## Get ping result
 
 To do an ICMP reachabilty test we use the net_ping module.
 
 ### Issue
+
 There is implementation module net_ping for asa. We need to get the raw data with asa_command.

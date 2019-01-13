@@ -1,0 +1,16 @@
+- name: get structured routing information
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: show routing information
+      ntc_show_command:
+        platform: "{{ platform }}"
+        command: "{{ show_route_command }}"
+        template_dir: "templates" 
+        host: "{{ ansible_host }}"
+        username: "{{ ansible_user }}"
+        password: "{{ ansible_ssh_pass }}"
+      register: result
+
+    - debug: var=result
