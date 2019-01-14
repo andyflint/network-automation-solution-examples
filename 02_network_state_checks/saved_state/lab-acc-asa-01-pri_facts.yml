@@ -1,0 +1,57 @@
+ansible_net_filesystems:
+- 'disk0:'
+ansible_net_gather_subset:
+- interfaces
+- default
+- hardware
+ansible_net_hostname: lab-acc-asa-01-pri
+ansible_net_image: boot:/asa982-smp-k8.bin
+ansible_net_interfaces:
+  GigabitEthernet0/0:
+    description: GigabitEthernet0/0
+    interface-type: i82540EM rev03, BW 1000 Mbps
+    ipv4_addr: null
+    ipv4_subnet: null
+    lineprotocol: up
+    macaddress: fa16.3e9d.8421
+    mtu: '1500'
+    operstatus: up
+  GigabitEthernet0/1:
+    description: to lab-acc-asa-01-sec
+    interface-type: i82540EM rev03, BW 1000 Mbps
+    ipv4_addr: 10.0.0.13
+    ipv4_subnet: 255.255.255.252
+    lineprotocol: up
+    macaddress: fa16.3e3f.bbde
+    mtu: '1500'
+    operstatus: up
+  GigabitEthernet0/2:
+    description: to lab-acc-sw-01
+    interface-type: i82540EM rev03, BW 1000 Mbps
+    ipv4_addr: 10.0.0.9
+    ipv4_subnet: 255.255.255.252
+    lineprotocol: up
+    macaddress: fa16.3e49.2e91
+    mtu: '1500'
+    operstatus: up
+  GigabitEthernet0/3:
+    description: GigabitEthernet0/3
+    interface-type: i82540EM rev03, BW 1000 Mbps
+    ipv4_addr: null
+    ipv4_subnet: null
+    lineprotocol: up
+    macaddress: fa16.3edb.0a48
+    mtu: '1500'
+    operstatus: up
+  Management0/0:
+    description: OOB Management
+    interface-type: i82540EM rev03, BW 1000 Mbps
+    ipv4_addr: 172.16.1.13
+    ipv4_subnet: 255.255.255.0
+    lineprotocol: up
+    macaddress: 5e00.0003.0000
+    mtu: '1500'
+    operstatus: up
+ansible_net_model: ASAv10
+ansible_net_serialnum: 9AMNFSUBCB6
+ansible_net_version: 9.8(2)

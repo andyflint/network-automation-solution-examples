@@ -1,0 +1,40 @@
+changed: false
+failed: false
+response:
+- distance: ''
+  mask: 255.255.255.252
+  metric: ''
+  network: 10.0.0.8
+  nexthopif: outside-2
+  nexthopip: ''
+  protocol: C
+  type: ''
+  uptime: ''
+- distance: ''
+  mask: 255.255.255.255
+  metric: ''
+  network: 10.0.0.9
+  nexthopif: outside-2
+  nexthopip: ''
+  protocol: L
+  type: ''
+  uptime: ''
+- distance: ''
+  mask: 255.255.255.252
+  metric: ''
+  network: 10.0.0.12
+  nexthopif: outside-1
+  nexthopip: ''
+  protocol: C
+  type: ''
+  uptime: ''
+- distance: ''
+  mask: 255.255.255.255
+  metric: ''
+  network: 10.0.0.13
+  nexthopif: outside-1
+  nexthopip: ''
+  protocol: L
+  type: ''
+  uptime: ''
+response_list: []
