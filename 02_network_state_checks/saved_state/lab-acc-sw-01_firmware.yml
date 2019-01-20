@@ -1,0 +1,15 @@
+changed: false
+failed: false
+response:
+- config_register: '0x2102'
+  hardware:
+  - CSR1000V
+  hostname: lab-acc-sw-01
+  reload_reason: Unknown reason
+  rommon: IOS-XE
+  running_image: packages.conf
+  serial:
+  - 97CR5LYPQ9X
+  uptime: 6 days, 18 hours, 45 minutes
+  version: 16.6.1
+response_list: []

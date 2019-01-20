@@ -1,0 +1,123 @@
+changed: false
+failed: false
+response:
+- address: 5e00.0005.0000
+  bandwidth: 1000000 Kbit
+  bia: 5e00.0005.0000
+  delay: 10 usec
+  description: OOB Management
+  duplex: Full Duplex
+  encapsulation: ARPA
+  hardware_type: CSR vNIC
+  input_rate: '1000'
+  interface: GigabitEthernet1
+  ip_address: 172.16.1.12/24
+  link_status: up
+  mtu: '1500'
+  output_rate: '1000'
+  protocol_status: up
+  queue_strategy: fifo
+  speed: 1000Mbps
+- address: fa16.3e5c.5125
+  bandwidth: 1000000 Kbit
+  bia: fa16.3e5c.5125
+  delay: 10 usec
+  description: to lab-core-sw-01
+  duplex: Full Duplex
+  encapsulation: ARPA
+  hardware_type: CSR vNIC
+  input_rate: '0'
+  interface: GigabitEthernet2
+  ip_address: 10.0.0.21/30
+  link_status: up
+  mtu: '1500'
+  output_rate: '0'
+  protocol_status: up
+  queue_strategy: fifo
+  speed: 1000Mbps
+- address: fa16.3e79.2a2a
+  bandwidth: 1000000 Kbit
+  bia: fa16.3e79.2a2a
+  delay: 10 usec
+  description: to lab-core-sw-02
+  duplex: Full Duplex
+  encapsulation: ARPA
+  hardware_type: CSR vNIC
+  input_rate: '0'
+  interface: GigabitEthernet3
+  ip_address: 10.0.0.29/30
+  link_status: up
+  mtu: '1500'
+  output_rate: '0'
+  protocol_status: up
+  queue_strategy: fifo
+  speed: 1000Mbps
+- address: fa16.3e8e.d0ed
+  bandwidth: 1000000 Kbit
+  bia: fa16.3e8e.d0ed
+  delay: 10 usec
+  description: GigabitEthernet4
+  duplex: Full Duplex
+  encapsulation: ARPA
+  hardware_type: CSR vNIC
+  input_rate: '0'
+  interface: GigabitEthernet4
+  ip_address: ''
+  link_status: up
+  mtu: '1500'
+  output_rate: '0'
+  protocol_status: up
+  queue_strategy: fifo
+  speed: 1000Mbps
+- address: fa16.3ec3.45a3
+  bandwidth: 1000000 Kbit
+  bia: fa16.3ec3.45a3
+  delay: 10 usec
+  description: to lab-acc-asa-01-pri
+  duplex: Full Duplex
+  encapsulation: ARPA
+  hardware_type: CSR vNIC
+  input_rate: '0'
+  interface: GigabitEthernet5
+  ip_address: 10.0.0.10/30
+  link_status: up
+  mtu: '1500'
+  output_rate: '0'
+  protocol_status: up
+  queue_strategy: fifo
+  speed: 1000Mbps
+- address: fa16.3e11.ec94
+  bandwidth: 1000000 Kbit
+  bia: fa16.3e11.ec94
+  delay: 10 usec
+  description: to lab-acc-asa-01-sec
+  duplex: Full Duplex
+  encapsulation: ARPA
+  hardware_type: CSR vNIC
+  input_rate: '0'
+  interface: GigabitEthernet6
+  ip_address: 10.0.0.18/30
+  link_status: up
+  mtu: '1500'
+  output_rate: '0'
+  protocol_status: up
+  queue_strategy: fifo
+  speed: 1000Mbps
+- address: ''
+  bandwidth: 8000000 Kbit
+  bia: ''
+  delay: 5000 usec
+  description: Loopback
+  duplex: ''
+  encapsulation: LOOPBACK
+  hardware_type: Loopback
+  input_rate: '0'
+  interface: Loopback0
+  ip_address: 192.168.0.12/32
+  link_status: up
+  mtu: '1514'
+  output_rate: '0'
+  protocol_status: up
+  queue_strategy: fifo
+  speed: ''
+response_list: []

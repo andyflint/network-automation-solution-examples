@@ -1,0 +1,9 @@
+changed: false
+failed: false
+response:
+- descr: ASAv Adaptive Security Virtual Appliance
+  name: Chassis
+  pid: ASAv
+  sn: 9A0F1U4FX33
+  vid: V01
+response_list: []

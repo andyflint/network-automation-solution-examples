@@ -1,0 +1,76 @@
+changed: false
+failed: false
+response:
+- address: fa16.3e15.f633
+  bandwidth: 1000 Mbps
+  delay: 10 usec
+  description: to lab-core-sw-01
+  duplex: Full-duplex
+  fivemin_drop_rate: '0'
+  fivemin_in_pps: '0'
+  fivemin_in_rate: '0'
+  fivemin_out_pps: '0'
+  fivemin_out_rate: '0'
+  hardware_type: i82540EM rev03
+  interface: GigabitEthernet0/0
+  interface_zone: outside
+  ip_address: 10.0.0.6
+  link_status: up
+  mtu: '1500'
+  net_mask: 255.255.255.252
+  onemin_drop_rate: '0'
+  onemin_in_pps: '0'
+  onemin_in_rate: '0'
+  onemin_out_pps: '0'
+  onemin_out_rate: '0'
+  protocol_status: up
+  speed: 1000 Mbps
+- address: fa16.3e7c.e26e
+  bandwidth: 1000 Mbps
+  delay: 10 usec
+  description: to lab-core-sw-02
+  duplex: Full-duplex
+  fivemin_drop_rate: '0'
+  fivemin_in_pps: '0'
+  fivemin_in_rate: '0'
+  fivemin_out_pps: '0'
+  fivemin_out_rate: '0'
+  hardware_type: i82540EM rev03
+  interface: GigabitEthernet0/1
+  interface_zone: outside-1
+  ip_address: 10.0.0.26
+  link_status: up
+  mtu: '1500'
+  net_mask: 255.255.255.252
+  onemin_drop_rate: '0'
+  onemin_in_pps: '0'
+  onemin_in_rate: '0'
+  onemin_out_pps: '0'
+  onemin_out_rate: '0'
+  protocol_status: up
+  speed: 1000 Mbps
+- address: 5e00.0000.0000
+  bandwidth: 1000 Mbps
+  delay: 10 usec
+  description: OOB Management
+  duplex: Full-duplex
+  fivemin_drop_rate: '0'
+  fivemin_in_pps: '0'
+  fivemin_in_rate: '25'
+  fivemin_out_pps: '0'
+  fivemin_out_rate: '25'
+  hardware_type: i82540EM rev03
+  interface: Management0/0
+  interface_zone: mgmt
+  ip_address: 172.16.1.15
+  link_status: up
+  mtu: '1500'
+  net_mask: 255.255.255.0
+  onemin_drop_rate: '0'
+  onemin_in_pps: '0'
+  onemin_in_rate: '25'
+  onemin_out_pps: '0'
+  onemin_out_rate: '25'
+  protocol_status: up
+  speed: 1000 Mbps
+response_list: []

@@ -1,0 +1,25 @@
+- name: get structured firmware information
+  hosts: all
+  gather_facts: no
+  vars:
+    - result_directory: saved_state
+    - suffix: "_firmware"
+    - date: "{{ lookup('pipe', 'date +%Y%m%d-%H%M') }}"
+
+  tasks:
+    - name: get firmware information
+      ntc_show_command:
+        platform: "{{ platform }}"
+        command: "{{ show_firmware_command }}"
+        template_dir: "templates" 
+        host: "{{ ansible_host }}"
+        username: "{{ ansible_user }}"
+        password: "{{ ansible_ssh_pass }}"
+      register: result
+
+    - name: Save Facts to {{result_directory}}
+      copy:
+        content: |
+          {{result|to_nice_yaml(indent=2)}}
+        dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
+#        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date

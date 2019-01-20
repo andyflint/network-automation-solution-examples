@@ -1,0 +1,19 @@
+changed: false
+failed: false
+response:
+- descr: Cisco CSR1000V Chassis
+  name: Chassis
+  pid: CSR1000V
+  sn: 97CR5LYPQ9X
+  vid: 'V00  '
+- descr: Cisco CSR1000V Route Processor
+  name: module R0
+  pid: CSR1000V
+  sn: JAB1303001C
+  vid: 'V00  '
+- descr: Cisco CSR1000V Embedded Services Processor
+  name: module F0
+  pid: CSR1000V
+  sn: ''
+  vid: ''
+response_list: []

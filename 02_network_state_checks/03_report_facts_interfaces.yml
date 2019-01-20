@@ -1,0 +1,20 @@
+---
+- name: Create Interface report
+  hosts: all
+  gather_facts: no
+  vars:
+    - source_directory: saved_state
+ 
+  tasks:
+  - name: load variable from file
+    block:
+    - include_vars:
+       file: "{{source_directory}}/{{inventory_hostname}}_facts.yml"
+    - include_vars:
+       file: "{{source_directory}}/{{inventory_hostname}}_firmware.yml"  
+       name: firmware     
+    - name: Create report from template
+      template:
+        src: "report_templates/facts_interfaces_html.j2"
+        dest: "reports/{{ansible_net_hostname}}_facts_interfaces.html"
+    #when: ansible_network_os == 'asa'
