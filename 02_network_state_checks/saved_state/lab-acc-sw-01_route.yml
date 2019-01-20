@@ -9,7 +9,7 @@ response:
   nexthop_ip: 10.0.0.22
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: ''
   mask: '30'
   metric: ''
@@ -72,7 +72,7 @@ response:
   nexthop_ip: 10.0.0.30
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: ''
   mask: '30'
   metric: ''
@@ -99,7 +99,7 @@ response:
   nexthop_ip: 10.0.0.30
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   mask: '30'
   metric: '41'
@@ -108,7 +108,7 @@ response:
   nexthop_ip: 10.0.0.22
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   mask: '30'
   metric: '41'
@@ -117,7 +117,7 @@ response:
   nexthop_ip: 10.0.0.30
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   mask: '30'
   metric: '41'
@@ -126,7 +126,7 @@ response:
   nexthop_ip: 10.0.0.22
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   mask: '32'
   metric: '2'
@@ -135,7 +135,7 @@ response:
   nexthop_ip: 10.0.0.22
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   mask: '32'
   metric: '2'
@@ -144,7 +144,7 @@ response:
   nexthop_ip: 10.0.0.30
   protocol: O
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: ''
   mask: '32'
   metric: ''

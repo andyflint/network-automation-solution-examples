@@ -2,8 +2,8 @@ ansible_net_filesystems:
 - 'disk0:'
 ansible_net_gather_subset:
 - default
-- hardware
 - interfaces
+- hardware
 ansible_net_hostname: lab-acc-asa-01-sec
 ansible_net_image: boot:/asa982-smp-k8.bin
 ansible_net_interfaces:

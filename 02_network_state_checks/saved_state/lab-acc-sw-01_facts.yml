@@ -13,9 +13,9 @@ ansible_net_filesystems_info:
     spacefree_kb: 14179804.0
     spacetotal_kb: 16035260.0
 ansible_net_gather_subset:
-- default
 - hardware
 - interfaces
+- default
 ansible_net_hostname: lab-acc-sw-01
 ansible_net_image: bootflash:packages.conf
 ansible_net_interfaces:

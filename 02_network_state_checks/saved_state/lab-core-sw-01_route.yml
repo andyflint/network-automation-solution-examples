@@ -14,7 +14,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '32'
@@ -28,7 +28,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '30'
@@ -42,7 +42,7 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '30'
@@ -56,7 +56,7 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '30'
@@ -70,7 +70,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '32'
@@ -84,7 +84,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '30'
@@ -98,7 +98,7 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '30'
@@ -112,7 +112,7 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '30'
@@ -126,7 +126,7 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '30'
@@ -140,7 +140,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '32'
@@ -154,7 +154,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '30'
@@ -168,7 +168,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '32'
@@ -182,7 +182,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '32'
@@ -196,7 +196,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '0'
   encap: ''
   mask: '32'
@@ -210,7 +210,7 @@ response:
   tag: ''
   tunnelid: ''
   type: ''
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '32'
@@ -224,7 +224,7 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '32'
@@ -238,7 +238,7 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 - distance: '110'
   encap: ''
   mask: '32'
@@ -252,5 +252,5 @@ response:
   tag: ''
   tunnelid: ''
   type: intra
-  uptime: 1d09h
+  uptime: 6d18h
 response_list: []

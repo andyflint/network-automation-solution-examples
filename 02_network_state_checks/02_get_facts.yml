@@ -1,5 +1,5 @@
 - name: Gather facts from switches
-  hosts: all
+  hosts: all 
   gather_facts: no
   vars:
     - result_directory: saved_state

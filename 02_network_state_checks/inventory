@@ -33,15 +33,22 @@ ansible_network_os=asa
 ansible_become_pass=cisco
 platform=cisco_asa
 show_route_command="show route"
-
+show_interface_command="show interface"
+show_inventory_command="show inventory"
+show_firmware_command="show version"
 
 [iosxe:vars]
 ansible_network_os=ios
 platform=cisco_ios
 show_route_command="show ip route"
+show_interface_command="show interface"
+show_inventory_command="show inventory"
+show_firmware_command="show version"
 
 [nxos:vars]
 ansible_network_os=nxos
 platform=cisco_nxos
-vlan_command="show vlan"
 show_route_command="show ip route"
+show_interface_command="show interface"
+show_inventory_command="show inventory"
+show_firmware_command="show version"

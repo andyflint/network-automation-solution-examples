@@ -9,10 +9,10 @@ ansible_net_all_ipv6_addresses: []
 ansible_net_filesystems:
 - 'bootflash:'
 ansible_net_gather_subset:
-- default
-- legacy
-- hardware
 - interfaces
+- hardware
+- legacy
+- default
 ansible_net_hostname: lab-core-sw-02
 ansible_net_image: bootflash:///titanium-d1.7.3.0.D1.1.bin
 ansible_net_interfaces:
@@ -1351,7 +1351,7 @@ ansible_net_interfaces:
     speed: 1000 Mb/s
     state: up
     type: Ethernet
-ansible_net_memfree_mb: 956.4921875
+ansible_net_memfree_mb: 956.07421875
 ansible_net_memtotal_mb: 2992.91015625
 ansible_net_model: NX-OSv Chassis
 ansible_net_neighbors:
