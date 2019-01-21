@@ -1,0 +1,31 @@
+---
+- name: Gather LLDP status from NXOS and IOS
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Get LLDP neighbore from IOS
+      block:
+        - ios_command:
+            commands:
+            - show lldp
+          register: results
+        - debug:
+            msg: "{{results.stdout_lines[0][0]}}"
+        - debug:
+            msg: "hostname {{inventory_hostname}} has LLDP not enabled!"
+          when:  "'not enabled' in results.stdout_lines[0][0]"
+      when: ansible_network_os == 'ios'
+
+    - name: Get LLDP neighbore from NXOS
+      block:
+        - nxos_command:
+            commands:
+            - show feature | grep lldp
+          register: results
+        - debug:
+            msg: "{{results.stdout_lines[0][0]}}"
+        - debug:
+            msg: "hostname {{inventory_hostname}} has LLDP not enabled!"
+          when:  "'disabled' in results.stdout_lines[0][0]"
+      when: ansible_network_os == 'nxos'
