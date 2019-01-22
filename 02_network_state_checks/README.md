@@ -2,7 +2,8 @@
 
 ## Target Definition
 
-Get information of the network state for IOS XE, NX OS and ASA. For the network state we will create a file which include hostname, managment IP, modell, firmware, a list of interfaces and IP addresses, the routing table and the layer2 topologie and create a HTML report about the network.
+Get information of the network state for IOS XE, NX OS and ASA. For the network state we will create a file which include hostname, managment IP, modell, firmware, a list of interfaces and IP addresses, routing table and layer2 topologie. Create a playbook which report the gathered information.
+We will also collect the running configuration and save this in a file.
 
 ## Structure of document and project folder
 
@@ -10,7 +11,12 @@ Get information of the network state for IOS XE, NX OS and ASA. For the network 
 - 02_ are playbooks which get information and save them
 - 03_ handle with saved information to create reports
 
-## 01 Get Facts
+## 01 Pre Checks
+
+- 01_check_lldp
+- 01_check_priv
+
+## 02 Get Facts
 
 ### Get Facts
 
