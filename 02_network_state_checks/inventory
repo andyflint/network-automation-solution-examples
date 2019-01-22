@@ -44,6 +44,7 @@ show_route_command="show ip route"
 show_interface_command="show interface"
 show_inventory_command="show inventory"
 show_firmware_command="show version"
+show_lldp_neighbors="show lldp neighbors"
 
 [nxos:vars]
 ansible_network_os=nxos
@@ -52,3 +53,4 @@ show_route_command="show ip route"
 show_interface_command="show interface"
 show_inventory_command="show inventory"
 show_firmware_command="show version"
+show_lldp_neighbors="show lldp neighbors"

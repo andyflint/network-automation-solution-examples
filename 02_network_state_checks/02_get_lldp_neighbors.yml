@@ -1,0 +1,27 @@
+- name: get structured lldp information
+  hosts: 
+    - iosxe
+      nxos
+  gather_facts: no
+  vars:
+    - result_directory: saved_state
+    - suffix: "_lldp"
+    - date: "{{ lookup('pipe', 'date +%Y%m%d-%H%M') }}"
+
+  tasks:
+    - name: show lldp information
+      ntc_show_command:
+        platform: "{{ platform }}"
+        command: "{{ show_lldp_neighbors }}"
+        template_dir: "templates" 
+        host: "{{ ansible_host }}"
+        username: "{{ ansible_user }}"
+        password: "{{ ansible_ssh_pass }}"
+      register: result
+
+    - name: Save Facts to {{result_directory}}
+      copy:
+        content: |
+          {{result|to_nice_yaml(indent=2)}}
+        dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
+#        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date

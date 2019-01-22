@@ -1,0 +1,13 @@
+changed: false
+failed: false
+response:
+- local_interface: Eth2/1
+  neighbor: lab-core-sw-02
+  neighbor_interface: Eth2/1
+- local_interface: Eth2/2
+  neighbor: lab-core-sw-02
+  neighbor_interface: Eth2/2
+- local_interface: Eth2/3
+  neighbor: lab-acc-sw-01.virl.info
+  neighbor_interface: Gi2
+response_list: []

@@ -1,0 +1,10 @@
+changed: false
+failed: false
+response:
+- local_interface: Gi3
+  neighbor: lab-core-sw-02
+  neighbor_interface: Eth2/3
+- local_interface: Gi2
+  neighbor: lab-core-sw-01
+  neighbor_interface: Eth2/3
+response_list: []
