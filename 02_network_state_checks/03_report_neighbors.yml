@@ -16,3 +16,5 @@
       template:
         src: "report_templates/lldp_neighbors_dot.j2"
         dest: "reports/{{inventory_hostname}}_lldp_neighbors.dot"
+    - name: Generate SVG from DOT
+      local_action: "shell dot -Tsvg reports/{{inventory_hostname}}_lldp_neighbors.dot -o reports/{{inventory_hostname}}_lldp_neighbors.svg"
