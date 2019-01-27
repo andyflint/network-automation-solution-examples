@@ -11,9 +11,8 @@
   - name: load variable from file
     block:
     - include_vars:
-       file: "{{source_directory}}/{{inventory_hostname}}_lldp.yml"
+       file: "{{source_directory}}/{{inventory_hostname}}_lldp_neighbors.yml"
     - name: Create report from template
       template:
-        src: "report_templates/lldp_neighbores_dot.j2"
-        dest: "reports/{{inventory_hostname}}_lldp_neighbores.dot"
-    #when: ansible_network_os == 'asa'
+        src: "report_templates/lldp_neighbors_dot.j2"
+        dest: "reports/{{inventory_hostname}}_lldp_neighbors.dot"

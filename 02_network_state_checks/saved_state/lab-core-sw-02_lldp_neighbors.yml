@@ -1,0 +1,10 @@
+lldp_neighbors:
+-   local_interface: Eth2/1
+    neighbor: lab-core-sw-01
+    neighbor_interface: Eth2/1
+-   local_interface: Eth2/2
+    neighbor: lab-core-sw-01
+    neighbor_interface: Eth2/2
+-   local_interface: Eth2/3
+    neighbor: lab-acc-sw-01
+    neighbor_interface: Gi3

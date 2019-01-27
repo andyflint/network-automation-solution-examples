@@ -5,7 +5,7 @@
   gather_facts: no
   vars:
     - result_directory: saved_state
-    - suffix: "_lldp"
+    - suffix: "_lldp_neighbors"
     - date: "{{ lookup('pipe', 'date +%Y%m%d-%H%M') }}"
 
   tasks:
@@ -22,6 +22,7 @@
     - name: Save Facts to {{result_directory}}
       copy:
         content: |
-          {{result|to_nice_yaml(indent=2)}}
+          lldp_neighbors:
+          {{result['response']|to_nice_yaml}}
         dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
 #        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date
