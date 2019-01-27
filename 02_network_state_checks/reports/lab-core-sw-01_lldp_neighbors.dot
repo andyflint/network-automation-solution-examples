@@ -1,5 +1,19 @@
 digraph G {
-  "lab-core-sw-01" -> "lab-core-sw-02"
-  "lab-core-sw-01" -> "lab-core-sw-02"
-  "lab-core-sw-01" -> "lab-acc-sw-01"
+  node [shape = record,height=.1,width=2];
+  rankdir=LR;
+  subgraph source {
+    "lab-core-sw-01"[label = "lab-core-sw-01
+    |<Eth2/1>Eth2/1|<Eth2/2>Eth2/2|<Eth2/3>Eth2/3 "]
+  }
+  subgraph destination {
+          "lab-core-sw-02"[label = "lab-core-sw-02
+      | <Eth2/1>Eth2/1| <Eth2/2>Eth2/2 "]
+          "lab-core-sw-02"[label = "lab-core-sw-02
+      | <Eth2/1>Eth2/1| <Eth2/2>Eth2/2 "]
+          "lab-acc-sw-01"[label = "lab-acc-sw-01
+      | <Gi2>Gi2 "]
+      }
+  "lab-core-sw-01":"Eth2/1" -> "lab-core-sw-02":"Eth2/1" 
+  "lab-core-sw-01":"Eth2/2" -> "lab-core-sw-02":"Eth2/2" 
+  "lab-core-sw-01":"Eth2/3" -> "lab-acc-sw-01":"Gi2" 
 }

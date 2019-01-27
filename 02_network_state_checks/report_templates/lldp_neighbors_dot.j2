@@ -1,5 +1,17 @@
 digraph G {
+  node [shape = record,height=.1,width=2];
+  rankdir=LR;
+  subgraph source {
+    "{{inventory_hostname}}"[label = "{{inventory_hostname}}
+    {% for neighbor in lldp_neighbors %}|<{{neighbor['local_interface']}}>{{neighbor['local_interface']}}{% endfor %} "]
+  }
+  subgraph destination {
+    {% for neighbor_outer in lldp_neighbors %}
+      "{{neighbor_outer['neighbor']}}"[label = "{{neighbor_outer['neighbor']}}
+      {% for neighbor_inner in lldp_neighbors %}{% if neighbor_outer['neighbor'] == neighbor_inner['neighbor'] %}| <{{neighbor_inner['neighbor_interface']}}>{{neighbor_inner['neighbor_interface']}}{% endif %}{% endfor %} "]
+    {% endfor %}
+  }
 {% for neighbor in lldp_neighbors %}
-  "{{inventory_hostname}}" -> "{{neighbor['neighbor']}}"
+  "{{inventory_hostname}}":"{{neighbor['local_interface']}}" -> "{{neighbor['neighbor']}}":"{{neighbor['neighbor_interface']}}" 
 {% endfor %}
 }
