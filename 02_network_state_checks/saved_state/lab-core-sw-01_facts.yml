@@ -1,1392 +1,20 @@
-ansible_net_all_ipv4_addresses:
-- 172.16.1.10
-- 10.0.0.33
-- 10.0.0.37
-- 10.0.0.22
-- 10.0.0.5
-- 192.168.0.10
-ansible_net_all_ipv6_addresses: []
-ansible_net_filesystems:
-- 'bootflash:'
-ansible_net_gather_subset:
-- interfaces
-- default
-- hardware
-- legacy
-ansible_net_hostname: lab-core-sw-01
-ansible_net_image: bootflash:///titanium-d1.7.3.0.D1.1.bin
-ansible_net_interfaces:
-  Ethernet2/1:
-    bandwidth: 1000000
-    description: to lab-core-sw-02
-    duplex: full
-    ipv4:
-      address: 10.0.0.33
-      masklen: 30
-    macaddress: fa16.3e00.0001
-    mode: routed
-    mtu: '1500'
-    speed: 1000 Mb/s
-    state: up
-    type: Ethernet
-  Ethernet2/10:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/11:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/12:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/13:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/14:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/15:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/16:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/17:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/18:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/19:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/2:
-    bandwidth: 1000000
-    description: to lab-core-sw-02
-    duplex: full
-    ipv4:
-      address: 10.0.0.37
-      masklen: 30
-    macaddress: fa16.3e00.0002
-    mode: routed
-    mtu: '1500'
-    speed: 1000 Mb/s
-    state: up
-    type: Ethernet
-  Ethernet2/20:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/21:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/22:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/23:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/24:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/25:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/26:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/27:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/28:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/29:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/3:
-    bandwidth: 1000000
-    description: to lab-acc-sw-01
-    duplex: full
-    ipv4:
-      address: 10.0.0.22
-      masklen: 30
-    macaddress: fa16.3e00.0003
-    mode: routed
-    mtu: '1500'
-    speed: 1000 Mb/s
-    state: up
-    type: Ethernet
-  Ethernet2/30:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/31:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/32:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/33:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/34:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/35:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/36:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/37:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/38:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/39:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/4:
-    bandwidth: 1000000
-    description: to lab-mgmt-asa-01
-    duplex: full
-    ipv4:
-      address: 10.0.0.5
-      masklen: 30
-    macaddress: fa16.3e00.0004
-    mode: routed
-    mtu: '1500'
-    speed: 1000 Mb/s
-    state: up
-    type: Ethernet
-  Ethernet2/40:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/41:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/42:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/43:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/44:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/45:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/46:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/47:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/48:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/5:
-    bandwidth: 1000000
-    description: Ethernet2/5
-    duplex: full
-    macaddress: fa16.3e00.0005
-    mode: routed
-    mtu: '1500'
-    speed: 1000 Mb/s
-    state: up
-    type: Ethernet
-  Ethernet2/6:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/7:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/8:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet2/9:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/1:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/10:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/11:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/12:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/13:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/14:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/15:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/16:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/17:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/18:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/19:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/2:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/20:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/21:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/22:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/23:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/24:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/25:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/26:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/27:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/28:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/29:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/3:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/30:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/31:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/32:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/33:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/34:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/35:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/36:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/37:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/38:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/39:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/4:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/40:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/41:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/42:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/43:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/44:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/45:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/46:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/47:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/48:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/5:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/6:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/7:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/8:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet3/9:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/1:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/10:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/11:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/12:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/13:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/14:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/15:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/16:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/17:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/18:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/19:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/2:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/20:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/21:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/22:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/23:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/24:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/25:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/26:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/27:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/28:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/29:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/3:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/30:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/31:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/32:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/33:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/34:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/35:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/36:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/37:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/38:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/39:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/4:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/40:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/41:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/42:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/43:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/44:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/45:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/46:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/47:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/48:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/5:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/6:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/7:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/8:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  Ethernet4/9:
-    bandwidth: 1000000
-    duplex: auto
-    macaddress: 0000.0000.002f
-    mode: routed
-    mtu: '1500'
-    speed: auto-speed
-    state: down
-    type: Ethernet
-  loopback0:
-    bandwidth: 8000000
-    description: Loopback
-    ipv4:
-      address: 192.168.0.10
-      masklen: 32
-    mode: routed
-    mtu: '1500'
-    state: up
-    type: Loopback
-  mgmt0:
-    bandwidth: 1000000
-    description: OOB Management
-    duplex: full
-    ipv4:
-      address: 172.16.1.10
-      masklen: 24
-    macaddress: 5e00.0001.0000
-    mode: routed
-    mtu: '1500'
-    speed: 1000 Mb/s
-    state: up
-    type: Ethernet
-ansible_net_memfree_mb: 961.28125
-ansible_net_memtotal_mb: 2992.91015625
-ansible_net_model: NX-OSv Chassis
-ansible_net_neighbors:
-  Ethernet2/1:
-  - port: Ethernet2/1
-    sysname: lab-core-sw-02(TB00020000B)
-  Ethernet2/2:
-  - port: Ethernet2/2
-    sysname: lab-core-sw-02(TB00020000B)
-  Ethernet2/3:
-  - port: GigabitEthernet2
-    sysname: lab-acc-sw-01.virl.info
-  mgmt0:
-  - port: GigabitEthernet1
-    sysname: lab-acc-sw-01.virl.info
-ansible_net_serialnum: TM00010000B
-ansible_net_version: 7.3(0)D1(1)
 fan_info:
-- hw_ver: '0.0'
-  model: null
-  name: ChassisFan1
-  status: Ok
-- hw_ver: '0.0'
-  model: null
-  name: ChassisFan2
-  status: None
-- hw_ver: --
-  model: --
-  name: Fan_in_PS1
-  status: Ok
-- hw_ver: --
-  model: --
-  name: Fan_in_PS2
-  status: Failure
+-   hw_ver: '0.0'
+    model: null
+    name: ChassisFan1
+    status: Ok
+-   hw_ver: '0.0'
+    model: null
+    name: ChassisFan2
+    status: None
+-   hw_ver: --
+    model: --
+    name: Fan_in_PS1
+    status: Ok
+-   hw_ver: --
+    model: --
+    name: Fan_in_PS2
+    status: Failure
 hostname: lab-core-sw-01
 interfaces_list:
 - mgmt0
@@ -1536,34 +164,1406 @@ interfaces_list:
 - Ethernet4/48
 - loopback0
 module:
-- model: N7K-SUP1
-  ports: 0
-  status: active *
-  type: NX-OSv Supervisor Module
-- model: N7K-F248XP-25
-  ports: 48
-  status: ok
-  type: NX-OSv Ethernet Module
-- model: N7K-F248XP-25
-  ports: 48
-  status: ok
-  type: NX-OSv Ethernet Module
-- model: N7K-F248XP-25
-  ports: 48
-  status: ok
-  type: NX-OSv Ethernet Module
+-   model: N7K-SUP1
+    ports: 0
+    status: active *
+    type: NX-OSv Supervisor Module
+-   model: N7K-F248XP-25
+    ports: 48
+    status: ok
+    type: NX-OSv Ethernet Module
+-   model: N7K-F248XP-25
+    ports: 48
+    status: ok
+    type: NX-OSv Ethernet Module
+-   model: N7K-F248XP-25
+    ports: 48
+    status: ok
+    type: NX-OSv Ethernet Module
+net_all_ipv4_addresses:
+- 172.16.1.10
+- 10.0.0.33
+- 10.0.0.37
+- 10.0.0.22
+- 10.0.0.5
+- 192.168.0.10
+net_all_ipv6_addresses: []
+net_filesystems:
+- 'bootflash:'
+net_gather_subset:
+- legacy
+- interfaces
+- hardware
+- default
+net_hostname: lab-core-sw-01
+net_image: bootflash:///titanium-d1.7.3.0.D1.1.bin
+net_interfaces:
+    Ethernet2/1:
+        bandwidth: 1000000
+        description: to lab-core-sw-02
+        duplex: full
+        ipv4:
+            address: 10.0.0.33
+            masklen: 30
+        macaddress: fa16.3e00.0001
+        mode: routed
+        mtu: '1500'
+        speed: 1000 Mb/s
+        state: up
+        type: Ethernet
+    Ethernet2/10:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/11:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/12:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/13:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/14:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/15:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/16:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/17:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/18:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/19:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/2:
+        bandwidth: 1000000
+        description: to lab-core-sw-02
+        duplex: full
+        ipv4:
+            address: 10.0.0.37
+            masklen: 30
+        macaddress: fa16.3e00.0002
+        mode: routed
+        mtu: '1500'
+        speed: 1000 Mb/s
+        state: up
+        type: Ethernet
+    Ethernet2/20:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/21:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/22:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/23:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/24:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/25:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/26:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/27:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/28:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/29:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/3:
+        bandwidth: 1000000
+        description: to lab-acc-sw-01
+        duplex: full
+        ipv4:
+            address: 10.0.0.22
+            masklen: 30
+        macaddress: fa16.3e00.0003
+        mode: routed
+        mtu: '1500'
+        speed: 1000 Mb/s
+        state: up
+        type: Ethernet
+    Ethernet2/30:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/31:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/32:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/33:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/34:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/35:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/36:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/37:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/38:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/39:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/4:
+        bandwidth: 1000000
+        description: to lab-mgmt-asa-01
+        duplex: full
+        ipv4:
+            address: 10.0.0.5
+            masklen: 30
+        macaddress: fa16.3e00.0004
+        mode: routed
+        mtu: '1500'
+        speed: 1000 Mb/s
+        state: up
+        type: Ethernet
+    Ethernet2/40:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/41:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/42:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/43:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/44:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/45:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/46:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/47:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/48:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/5:
+        bandwidth: 1000000
+        description: Ethernet2/5
+        duplex: full
+        macaddress: fa16.3e00.0005
+        mode: routed
+        mtu: '1500'
+        speed: 1000 Mb/s
+        state: up
+        type: Ethernet
+    Ethernet2/6:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/7:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/8:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet2/9:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/1:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/10:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/11:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/12:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/13:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/14:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/15:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/16:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/17:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/18:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/19:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/2:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/20:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/21:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/22:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/23:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/24:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/25:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/26:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/27:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/28:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/29:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/3:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/30:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/31:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/32:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/33:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/34:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/35:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/36:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/37:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/38:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/39:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/4:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/40:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/41:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/42:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/43:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/44:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/45:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/46:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/47:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/48:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/5:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/6:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/7:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/8:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet3/9:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/1:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/10:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/11:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/12:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/13:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/14:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/15:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/16:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/17:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/18:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/19:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/2:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/20:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/21:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/22:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/23:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/24:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/25:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/26:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/27:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/28:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/29:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/3:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/30:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/31:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/32:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/33:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/34:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/35:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/36:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/37:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/38:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/39:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/4:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/40:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/41:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/42:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/43:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/44:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/45:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/46:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/47:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/48:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/5:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/6:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/7:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/8:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    Ethernet4/9:
+        bandwidth: 1000000
+        duplex: auto
+        macaddress: 0000.0000.002f
+        mode: routed
+        mtu: '1500'
+        speed: auto-speed
+        state: down
+        type: Ethernet
+    loopback0:
+        bandwidth: 8000000
+        description: Loopback
+        ipv4:
+            address: 192.168.0.10
+            masklen: 32
+        mode: routed
+        mtu: '1500'
+        state: up
+        type: Loopback
+    mgmt0:
+        bandwidth: 1000000
+        description: OOB Management
+        duplex: full
+        ipv4:
+            address: 172.16.1.10
+            masklen: 24
+        macaddress: 5e00.0001.0000
+        mode: routed
+        mtu: '1500'
+        speed: 1000 Mb/s
+        state: up
+        type: Ethernet
+net_memfree_mb: 935.2890625
+net_memtotal_mb: 2992.91015625
+net_model: NX-OSv Chassis
+net_neighbors:
+    Ethernet2/1:
+    -   port: Ethernet2/1
+        sysname: lab-core-sw-02(TB00020000B)
+    Ethernet2/2:
+    -   port: Ethernet2/2
+        sysname: lab-core-sw-02(TB00020000B)
+    Ethernet2/3:
+    -   port: GigabitEthernet2
+        sysname: lab-acc-sw-01
+    mgmt0:
+    -   port: GigabitEthernet1
+        sysname: lab-acc-sw-01
+net_serialnum: TM00010000B
+net_version: 7.3(0)D1(1)
 os: 7.3(0)D1(1)
 platform: NX-OSv Chassis
 power_supply_info:
-- amps: '77.96'
-  model: DS-CAC-845W
-  number: 1
-  status: Ok
-  watts: '3274.32'
-- amps: '0.00'
-  model: '------------'
-  number: 2
-  status: Absent
-  watts: '0.00'
+-   amps: '77.96'
+    model: DS-CAC-845W
+    number: 1
+    status: Ok
+    watts: '3274.32'
+-   amps: '0.00'
+    model: '------------'
+    number: 2
+    status: Absent
+    watts: '0.00'
 vlan_list:
 - 1

@@ -1,12 +1,12 @@
 <html>
   <head>
-    <title>{{ansible_net_hostname}} Interface report</title>
+    <title>{{net_hostname}} Interface report</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
   </head>
 <body>
-  <h1>{{ansible_net_hostname}} Interface report</h1>
+  <h1>{{net_hostname}} Interface report</h1>
 {% if ansible_network_os == 'asa' %}
   Uptime: {{firmware[0]['uptime']}} | Version: {{firmware[0]['version']}} <br />
   Model: {{firmware[0]['model']}} | Hardware: {{firmware[0]['hardware']}}
@@ -29,37 +29,37 @@
     </thead>
    <tbody>
 {% if ansible_network_os == 'asa' %}
-  {% for interface in ansible_net_interfaces %}
+  {% for interface in net_interfaces %}
       <tr>
         <td>{{interface}}</td>
-        <td>{{ansible_net_interfaces[interface]['ipv4_addr']}} {{ansible_net_interfaces[interface]['ipv4_subnet']}}</td>
-        <td>{{ansible_net_interfaces[interface]['lineprotocol']}}</td>
+        <td>{{net_interfaces[interface]['ipv4_addr']}} {{net_interfaces[interface]['ipv4_subnet']}}</td>
+        <td>{{net_interfaces[interface]['lineprotocol']}}</td>
       </tr>
   {% endfor %}
 {% endif %}
 {% if ansible_network_os == 'ios' %}
-  {% for interface in ansible_net_interfaces %}
+  {% for interface in net_interfaces %}
       <tr>
         <td>{{interface}}</td>
         <td>
-    {% if ansible_net_interfaces[interface]['ipv4'][0] is defined %}
-      {{ansible_net_interfaces[interface]['ipv4'][0]['address']}}/{{ansible_net_interfaces[interface]['ipv4'][0]['subnet']}}}}
+    {% if net_interfaces[interface]['ipv4'][0] is defined %}
+      {{net_interfaces[interface]['ipv4'][0]['address']}}/{{net_interfaces[interface]['ipv4'][0]['subnet']}}}}
     {% endif %}
         </td>
-        <td>{{ansible_net_interfaces[interface]['lineprotocol']}}</td>
+        <td>{{net_interfaces[interface]['lineprotocol']}}</td>
       </tr>
   {% endfor %}
 {% endif %}
 {% if ansible_network_os == 'nxos' %}
-  {% for interface in ansible_net_interfaces %}
+  {% for interface in net_interfaces %}
       <tr>
         <td>{{interface}}</td>
         <td>
-    {% if ansible_net_interfaces[interface]['ipv4'] is defined %}
-      {{ansible_net_interfaces[interface]['ipv4']['address']}} {{ansible_net_interfaces[interface]['ipv4']['masklen']}}
+    {% if net_interfaces[interface]['ipv4'] is defined %}
+      {{net_interfaces[interface]['ipv4']['address']}} {{net_interfaces[interface]['ipv4']['masklen']}}
     {% endif %}
         </td>
-        <td>{{ansible_net_interfaces[interface]['state']}}</td>
+        <td>{{net_interfaces[interface]['state']}}</td>
       </tr>
   {% endfor %}
 {% endif %}

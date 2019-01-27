@@ -1,39 +1,39 @@
-ansible_net_filesystems:
+net_filesystems:
 - 'disk0:'
-ansible_net_gather_subset:
+net_gather_subset:
 - hardware
 - default
 - interfaces
-ansible_net_hostname: lab-mgmt-asa-01
-ansible_net_image: boot:/asa982-smp-k8.bin
-ansible_net_interfaces:
-  GigabitEthernet0/0:
-    description: to lab-core-sw-01
-    interface-type: i82540EM rev03, BW 1000 Mbps
-    ipv4_addr: 10.0.0.6
-    ipv4_subnet: 255.255.255.252
-    lineprotocol: up
-    macaddress: fa16.3e15.f633
-    mtu: '1500'
-    operstatus: up
-  GigabitEthernet0/1:
-    description: to lab-core-sw-02
-    interface-type: i82540EM rev03, BW 1000 Mbps
-    ipv4_addr: 10.0.0.26
-    ipv4_subnet: 255.255.255.252
-    lineprotocol: up
-    macaddress: fa16.3e7c.e26e
-    mtu: '1500'
-    operstatus: up
-  Management0/0:
-    description: OOB Management
-    interface-type: i82540EM rev03, BW 1000 Mbps
-    ipv4_addr: 172.16.1.15
-    ipv4_subnet: 255.255.255.0
-    lineprotocol: up
-    macaddress: 5e00.0000.0000
-    mtu: '1500'
-    operstatus: up
-ansible_net_model: ASAv10
-ansible_net_serialnum: 9A0F1U4FX33
-ansible_net_version: 9.8(2)
+net_hostname: lab-mgmt-asa-01
+net_image: boot:/asa982-smp-k8.bin
+net_interfaces:
+    GigabitEthernet0/0:
+        description: to lab-core-sw-01
+        interface-type: i82540EM rev03, BW 1000 Mbps
+        ipv4_addr: 10.0.0.6
+        ipv4_subnet: 255.255.255.252
+        lineprotocol: up
+        macaddress: fa16.3e15.f633
+        mtu: '1500'
+        operstatus: up
+    GigabitEthernet0/1:
+        description: to lab-core-sw-02
+        interface-type: i82540EM rev03, BW 1000 Mbps
+        ipv4_addr: 10.0.0.26
+        ipv4_subnet: 255.255.255.252
+        lineprotocol: up
+        macaddress: fa16.3e7c.e26e
+        mtu: '1500'
+        operstatus: up
+    Management0/0:
+        description: OOB Management
+        interface-type: i82540EM rev03, BW 1000 Mbps
+        ipv4_addr: 172.16.1.15
+        ipv4_subnet: 255.255.255.0
+        lineprotocol: up
+        macaddress: 5e00.0000.0000
+        mtu: '1500'
+        operstatus: up
+net_model: ASAv10
+net_serialnum: 9A0F1U4FX33
+net_version: 9.8(2)

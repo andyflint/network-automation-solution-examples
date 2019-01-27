@@ -15,4 +15,4 @@
     - name: Create report from template
       template:
         src: "report_templates/facts_interfaces_html.j2"
-        dest: "reports/{{ansible_net_hostname}}_facts_interfaces.html"
+        dest: "reports/{{inventory_hostname}}_facts_interfaces.html"

@@ -12,42 +12,32 @@
       file: path={{result_directory}} state=directory
       run_once: true
     ## Collect Data
+
     - name: Gather facts (ASA)
-      become: yes
-      become_method: enable
-      asa_facts:
-      register: result_asa
+      block:
+      - asa_facts:
+        become: yes
+        become_method: enable
+      - copy:
+          content: |
+            {{ansible_facts|to_nice_yaml}}
+          dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
       when: ansible_network_os == 'asa'
 
-    - name: Gather facts (IOS / IOS XE)
-      ios_facts:
-      register: result_ios
+    - name: Gather facts (IOS)
+      block:
+      - ios_facts:
+      - copy:
+          content: |
+            {{ansible_facts|to_nice_yaml}}
+          dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
       when: ansible_network_os == 'ios'
-    
+
     - name: Gather facts (NXOS)
-      nxos_facts:
-      register: result_nxos
-      when: ansible_network_os == 'nxos'
-    
-    ## Save Facts
-    - name: Save Facts to {{result_directory}} {{inventory_hostname}}
-      copy:
-        content: |
-          {{result_asa.ansible_facts|to_nice_yaml(indent=2)}}
-        dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
-#        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date
-      when: ansible_network_os == 'asa'
-    - name: Save Facts to {{result_directory}} {{inventory_hostname}}
-      copy:
-        content: |
-          {{result_ios.ansible_facts|to_nice_yaml(indent=2)}}
-        dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
-#        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date
-      when: ansible_network_os == 'ios'
-    - name: Save Facts to {{result_directory}} {{inventory_hostname}}
-      copy:
-        content: |
-          {{result_nxos.ansible_facts|to_nice_yaml(indent=2)}}
-        dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
-#        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date
+      block:
+      - nxos_facts:
+      - copy:
+          content: |
+            {{ansible_facts|to_nice_yaml}}
+          dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
       when: ansible_network_os == 'nxos'

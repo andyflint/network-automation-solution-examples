@@ -1,115 +1,122 @@
-ansible_net_all_ipv4_addresses:
+net_all_ipv4_addresses:
 - 172.16.1.12
 - 10.0.0.21
 - 10.0.0.29
 - 10.0.0.10
 - 10.0.0.18
 - 192.168.0.12
-ansible_net_all_ipv6_addresses: []
-ansible_net_filesystems:
+net_all_ipv6_addresses: []
+net_filesystems:
 - 'bootflash:'
-ansible_net_filesystems_info:
-  'bootflash:':
-    spacefree_kb: 14179804.0
-    spacetotal_kb: 16035260.0
-ansible_net_gather_subset:
-- hardware
-- interfaces
+net_filesystems_info:
+    'bootflash:':
+        spacefree_kb: 14179808.0
+        spacetotal_kb: 16035260.0
+net_gather_subset:
 - default
-ansible_net_hostname: lab-acc-sw-01
-ansible_net_image: bootflash:packages.conf
-ansible_net_interfaces:
-  GigabitEthernet1:
-    bandwidth: 1000000
-    description: OOB Management
-    duplex: Full
-    ipv4:
-    - address: 172.16.1.12
-      subnet: '24'
-    lineprotocol: 'up '
-    macaddress: 5e00.0005.0000
-    mediatype: RJ45
-    mtu: 1500
-    operstatus: up
-    type: CSR vNIC
-  GigabitEthernet2:
-    bandwidth: 1000000
-    description: to lab-core-sw-01
-    duplex: Full
-    ipv4:
-    - address: 10.0.0.21
-      subnet: '30'
-    lineprotocol: 'up '
-    macaddress: fa16.3e5c.5125
-    mediatype: RJ45
-    mtu: 1500
-    operstatus: up
-    type: CSR vNIC
-  GigabitEthernet3:
-    bandwidth: 1000000
-    description: to lab-core-sw-02
-    duplex: Full
-    ipv4:
-    - address: 10.0.0.29
-      subnet: '30'
-    lineprotocol: 'up '
-    macaddress: fa16.3e79.2a2a
-    mediatype: RJ45
-    mtu: 1500
-    operstatus: up
-    type: CSR vNIC
-  GigabitEthernet4:
-    bandwidth: 1000000
-    description: GigabitEthernet4
-    duplex: Full
-    ipv4: []
-    lineprotocol: 'up '
-    macaddress: fa16.3e8e.d0ed
-    mediatype: RJ45
-    mtu: 1500
-    operstatus: up
-    type: CSR vNIC
-  GigabitEthernet5:
-    bandwidth: 1000000
-    description: to lab-acc-asa-01-pri
-    duplex: Full
-    ipv4:
-    - address: 10.0.0.10
-      subnet: '30'
-    lineprotocol: 'up '
-    macaddress: fa16.3ec3.45a3
-    mediatype: RJ45
-    mtu: 1500
-    operstatus: up
-    type: CSR vNIC
-  GigabitEthernet6:
-    bandwidth: 1000000
-    description: to lab-acc-asa-01-sec
-    duplex: Full
-    ipv4:
-    - address: 10.0.0.18
-      subnet: '30'
-    lineprotocol: 'up '
-    macaddress: fa16.3e11.ec94
-    mediatype: RJ45
-    mtu: 1500
-    operstatus: up
-    type: CSR vNIC
-  Loopback0:
-    bandwidth: 8000000
-    description: Loopback
-    duplex: null
-    ipv4:
-    - address: 192.168.0.12
-      subnet: '32'
-    lineprotocol: 'up '
-    macaddress: null
-    mediatype: null
-    mtu: 1514
-    operstatus: up
-    type: null
-ansible_net_memfree_mb: 876695.03125
-ansible_net_memtotal_mb: 1225375.3046875
-ansible_net_model: CSR1000V
-ansible_net_serialnum: 97CR5LYPQ9X
-ansible_net_version: 16.06.01
+- interfaces
+- hardware
+net_hostname: lab-acc-sw-01
+net_image: bootflash:packages.conf
+net_interfaces:
+    GigabitEthernet1:
+        bandwidth: 1000000
+        description: OOB Management
+        duplex: Full
+        ipv4:
+        -   address: 172.16.1.12
+            subnet: '24'
+        lineprotocol: 'up '
+        macaddress: 5e00.0005.0000
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: CSR vNIC
+    GigabitEthernet2:
+        bandwidth: 1000000
+        description: to lab-core-sw-01
+        duplex: Full
+        ipv4:
+        -   address: 10.0.0.21
+            subnet: '30'
+        lineprotocol: 'up '
+        macaddress: fa16.3e5c.5125
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: CSR vNIC
+    GigabitEthernet3:
+        bandwidth: 1000000
+        description: to lab-core-sw-02
+        duplex: Full
+        ipv4:
+        -   address: 10.0.0.29
+            subnet: '30'
+        lineprotocol: 'up '
+        macaddress: fa16.3e79.2a2a
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: CSR vNIC
+    GigabitEthernet4:
+        bandwidth: 1000000
+        description: GigabitEthernet4
+        duplex: Full
+        ipv4: []
+        lineprotocol: 'up '
+        macaddress: fa16.3e8e.d0ed
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: CSR vNIC
+    GigabitEthernet5:
+        bandwidth: 1000000
+        description: to lab-acc-asa-01-pri
+        duplex: Full
+        ipv4:
+        -   address: 10.0.0.10
+            subnet: '30'
+        lineprotocol: 'up '
+        macaddress: fa16.3ec3.45a3
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: CSR vNIC
+    GigabitEthernet6:
+        bandwidth: 1000000
+        description: to lab-acc-asa-01-sec
+        duplex: Full
+        ipv4:
+        -   address: 10.0.0.18
+            subnet: '30'
+        lineprotocol: 'up '
+        macaddress: fa16.3e11.ec94
+        mediatype: RJ45
+        mtu: 1500
+        operstatus: up
+        type: CSR vNIC
+    Loopback0:
+        bandwidth: 8000000
+        description: Loopback
+        duplex: null
+        ipv4:
+        -   address: 192.168.0.12
+            subnet: '32'
+        lineprotocol: 'up '
+        macaddress: null
+        mediatype: null
+        mtu: 1514
+        operstatus: up
+        type: null
+net_memfree_mb: 878523.171875
+net_memtotal_mb: 1225375.3046875
+net_model: CSR1000V
+net_neighbors:
+    Gi2:
+    -   host: lab-core-sw-01
+        port: Eth2/3
+    Gi3:
+    -   host: lab-core-sw-02
+        port: Eth2/3
+net_serialnum: 97CR5LYPQ9X
+net_version: 16.06.01
