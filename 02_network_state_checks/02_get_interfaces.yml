@@ -3,7 +3,7 @@
   gather_facts: no
   vars:
     - result_directory: saved_state
-    - suffix: "_interface"
+    - suffix: "_interfaces"
     - date: "{{ lookup('pipe', 'date +%Y%m%d-%H%M') }}"
 
   tasks:

@@ -1,31 +1,31 @@
-route_table:
--   distance: '110'
+routes:
+-   distance: '0'
     encap: ''
     mask: '30'
-    metric: '80'
+    metric: '0'
     network: 10.0.0.4
-    nexthop_if: Eth2/1
-    nexthop_ip: 10.0.0.33
+    nexthop_if: Eth2/4
+    nexthop_ip: 10.0.0.5
     nexthop_vrf: ''
-    protocol: ospf-1
+    protocol: direct
     segid: ''
     tag: ''
     tunnelid: ''
-    type: intra
+    type: ''
     uptime: 2w0d
--   distance: '110'
+-   distance: '0'
     encap: ''
-    mask: '30'
-    metric: '80'
-    network: 10.0.0.4
-    nexthop_if: Eth2/2
-    nexthop_ip: 10.0.0.37
+    mask: '32'
+    metric: '0'
+    network: 10.0.0.5
+    nexthop_if: Eth2/4
+    nexthop_ip: 10.0.0.5
     nexthop_vrf: ''
-    protocol: ospf-1
+    protocol: local
     segid: ''
     tag: ''
     tunnelid: ''
-    type: intra
+    type: ''
     uptime: 2w0d
 -   distance: '110'
     encap: ''
@@ -33,105 +33,105 @@ route_table:
     metric: '41'
     network: 10.0.0.8
     nexthop_if: Eth2/3
-    nexthop_ip: 10.0.0.29
+    nexthop_ip: 10.0.0.21
     nexthop_vrf: ''
     protocol: ospf-1
     segid: ''
     tag: ''
     tunnelid: ''
     type: intra
-    uptime: 02:51:11
+    uptime: 03:00:26
 -   distance: '110'
     encap: ''
     mask: '30'
     metric: '41'
     network: 10.0.0.16
     nexthop_if: Eth2/3
-    nexthop_ip: 10.0.0.29
+    nexthop_ip: 10.0.0.21
     nexthop_vrf: ''
     protocol: ospf-1
     segid: ''
     tag: ''
     tunnelid: ''
     type: intra
-    uptime: 02:51:11
+    uptime: 03:00:26
+-   distance: '0'
+    encap: ''
+    mask: '30'
+    metric: '0'
+    network: 10.0.0.20
+    nexthop_if: Eth2/3
+    nexthop_ip: 10.0.0.22
+    nexthop_vrf: ''
+    protocol: direct
+    segid: ''
+    tag: ''
+    tunnelid: ''
+    type: ''
+    uptime: 2w0d
+-   distance: '0'
+    encap: ''
+    mask: '32'
+    metric: '0'
+    network: 10.0.0.22
+    nexthop_if: Eth2/3
+    nexthop_ip: 10.0.0.22
+    nexthop_vrf: ''
+    protocol: local
+    segid: ''
+    tag: ''
+    tunnelid: ''
+    type: ''
+    uptime: 2w0d
+-   distance: '110'
+    encap: ''
+    mask: '30'
+    metric: '80'
+    network: 10.0.0.24
+    nexthop_if: Eth2/1
+    nexthop_ip: 10.0.0.34
+    nexthop_vrf: ''
+    protocol: ospf-1
+    segid: ''
+    tag: ''
+    tunnelid: ''
+    type: intra
+    uptime: 2w0d
+-   distance: '110'
+    encap: ''
+    mask: '30'
+    metric: '80'
+    network: 10.0.0.24
+    nexthop_if: Eth2/2
+    nexthop_ip: 10.0.0.38
+    nexthop_vrf: ''
+    protocol: ospf-1
+    segid: ''
+    tag: ''
+    tunnelid: ''
+    type: intra
+    uptime: 2w0d
 -   distance: '110'
     encap: ''
     mask: '30'
     metric: '41'
-    network: 10.0.0.20
+    network: 10.0.0.28
     nexthop_if: Eth2/3
-    nexthop_ip: 10.0.0.29
+    nexthop_ip: 10.0.0.21
     nexthop_vrf: ''
     protocol: ospf-1
     segid: ''
     tag: ''
     tunnelid: ''
     type: intra
-    uptime: 02:51:11
--   distance: '0'
-    encap: ''
-    mask: '30'
-    metric: '0'
-    network: 10.0.0.24
-    nexthop_if: Eth2/4
-    nexthop_ip: 10.0.0.25
-    nexthop_vrf: ''
-    protocol: direct
-    segid: ''
-    tag: ''
-    tunnelid: ''
-    type: ''
-    uptime: 2w0d
--   distance: '0'
-    encap: ''
-    mask: '32'
-    metric: '0'
-    network: 10.0.0.25
-    nexthop_if: Eth2/4
-    nexthop_ip: 10.0.0.25
-    nexthop_vrf: ''
-    protocol: local
-    segid: ''
-    tag: ''
-    tunnelid: ''
-    type: ''
-    uptime: 2w0d
--   distance: '0'
-    encap: ''
-    mask: '30'
-    metric: '0'
-    network: 10.0.0.28
-    nexthop_if: Eth2/3
-    nexthop_ip: 10.0.0.30
-    nexthop_vrf: ''
-    protocol: direct
-    segid: ''
-    tag: ''
-    tunnelid: ''
-    type: ''
-    uptime: 2w0d
--   distance: '0'
-    encap: ''
-    mask: '32'
-    metric: '0'
-    network: 10.0.0.30
-    nexthop_if: Eth2/3
-    nexthop_ip: 10.0.0.30
-    nexthop_vrf: ''
-    protocol: local
-    segid: ''
-    tag: ''
-    tunnelid: ''
-    type: ''
-    uptime: 2w0d
+    uptime: 03:00:26
 -   distance: '0'
     encap: ''
     mask: '30'
     metric: '0'
     network: 10.0.0.32
     nexthop_if: Eth2/1
-    nexthop_ip: 10.0.0.34
+    nexthop_ip: 10.0.0.33
     nexthop_vrf: ''
     protocol: direct
     segid: ''
@@ -143,9 +143,9 @@ route_table:
     encap: ''
     mask: '32'
     metric: '0'
-    network: 10.0.0.34
+    network: 10.0.0.33
     nexthop_if: Eth2/1
-    nexthop_ip: 10.0.0.34
+    nexthop_ip: 10.0.0.33
     nexthop_vrf: ''
     protocol: local
     segid: ''
@@ -159,7 +159,7 @@ route_table:
     metric: '0'
     network: 10.0.0.36
     nexthop_if: Eth2/2
-    nexthop_ip: 10.0.0.38
+    nexthop_ip: 10.0.0.37
     nexthop_vrf: ''
     protocol: direct
     segid: ''
@@ -171,51 +171,23 @@ route_table:
     encap: ''
     mask: '32'
     metric: '0'
-    network: 10.0.0.38
-    nexthop_if: Eth2/2
-    nexthop_ip: 10.0.0.38
-    nexthop_vrf: ''
-    protocol: local
-    segid: ''
-    tag: ''
-    tunnelid: ''
-    type: ''
-    uptime: 2w0d
--   distance: '110'
-    encap: ''
-    mask: '32'
-    metric: '41'
-    network: 192.168.0.10
-    nexthop_if: Eth2/1
-    nexthop_ip: 10.0.0.33
-    nexthop_vrf: ''
-    protocol: ospf-1
-    segid: ''
-    tag: ''
-    tunnelid: ''
-    type: intra
-    uptime: 2w0d
--   distance: '110'
-    encap: ''
-    mask: '32'
-    metric: '41'
-    network: 192.168.0.10
+    network: 10.0.0.37
     nexthop_if: Eth2/2
     nexthop_ip: 10.0.0.37
     nexthop_vrf: ''
-    protocol: ospf-1
+    protocol: local
     segid: ''
     tag: ''
     tunnelid: ''
-    type: intra
+    type: ''
     uptime: 2w0d
 -   distance: '0'
     encap: ''
     mask: '32'
     metric: '0'
-    network: 192.168.0.11
+    network: 192.168.0.10
     nexthop_if: Lo0
-    nexthop_ip: 192.168.0.11
+    nexthop_ip: 192.168.0.10
     nexthop_vrf: ''
     protocol: local
     segid: ''
@@ -227,15 +199,43 @@ route_table:
     encap: ''
     mask: '32'
     metric: '0'
-    network: 192.168.0.11
+    network: 192.168.0.10
     nexthop_if: Lo0
-    nexthop_ip: 192.168.0.11
+    nexthop_ip: 192.168.0.10
     nexthop_vrf: ''
     protocol: direct
     segid: ''
     tag: ''
     tunnelid: ''
     type: ''
+    uptime: 2w0d
+-   distance: '110'
+    encap: ''
+    mask: '32'
+    metric: '41'
+    network: 192.168.0.11
+    nexthop_if: Eth2/1
+    nexthop_ip: 10.0.0.34
+    nexthop_vrf: ''
+    protocol: ospf-1
+    segid: ''
+    tag: ''
+    tunnelid: ''
+    type: intra
+    uptime: 2w0d
+-   distance: '110'
+    encap: ''
+    mask: '32'
+    metric: '41'
+    network: 192.168.0.11
+    nexthop_if: Eth2/2
+    nexthop_ip: 10.0.0.38
+    nexthop_vrf: ''
+    protocol: ospf-1
+    segid: ''
+    tag: ''
+    tunnelid: ''
+    type: intra
     uptime: 2w0d
 -   distance: '110'
     encap: ''
@@ -243,11 +243,11 @@ route_table:
     metric: '41'
     network: 192.168.0.12
     nexthop_if: Eth2/3
-    nexthop_ip: 10.0.0.29
+    nexthop_ip: 10.0.0.21
     nexthop_vrf: ''
     protocol: ospf-1
     segid: ''
     tag: ''
     tunnelid: ''
     type: intra
-    uptime: 02:51:11
+    uptime: 03:00:26

@@ -12,7 +12,7 @@ interfaces:
     ip_address: 172.16.1.12/24
     link_status: up
     mtu: '1500'
-    output_rate: '2000'
+    output_rate: '3000'
     protocol_status: up
     queue_strategy: fifo
     speed: 1000Mbps

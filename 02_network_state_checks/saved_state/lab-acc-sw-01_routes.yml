@@ -1,4 +1,4 @@
-route_table:
+routes:
 -   distance: '110'
     mask: '30'
     metric: '41'
@@ -7,7 +7,7 @@ route_table:
     nexthop_ip: 10.0.0.22
     protocol: O
     type: ''
-    uptime: 02:51:10
+    uptime: 03:00:27
 -   distance: ''
     mask: '30'
     metric: ''
@@ -70,7 +70,7 @@ route_table:
     nexthop_ip: 10.0.0.30
     protocol: O
     type: ''
-    uptime: 02:51:12
+    uptime: 03:00:29
 -   distance: ''
     mask: '30'
     metric: ''
@@ -97,7 +97,7 @@ route_table:
     nexthop_ip: 10.0.0.30
     protocol: O
     type: ''
-    uptime: 02:51:12
+    uptime: 03:00:29
 -   distance: '110'
     mask: '30'
     metric: '41'
@@ -106,7 +106,7 @@ route_table:
     nexthop_ip: 10.0.0.22
     protocol: O
     type: ''
-    uptime: 02:51:10
+    uptime: 03:00:27
 -   distance: '110'
     mask: '30'
     metric: '41'
@@ -115,7 +115,7 @@ route_table:
     nexthop_ip: 10.0.0.30
     protocol: O
     type: ''
-    uptime: 02:51:12
+    uptime: 03:00:29
 -   distance: '110'
     mask: '30'
     metric: '41'
@@ -124,7 +124,7 @@ route_table:
     nexthop_ip: 10.0.0.22
     protocol: O
     type: ''
-    uptime: 02:51:10
+    uptime: 03:00:27
 -   distance: '110'
     mask: '32'
     metric: '2'
@@ -133,7 +133,7 @@ route_table:
     nexthop_ip: 10.0.0.22
     protocol: O
     type: ''
-    uptime: 02:51:10
+    uptime: 03:00:27
 -   distance: '110'
     mask: '32'
     metric: '2'
@@ -142,7 +142,7 @@ route_table:
     nexthop_ip: 10.0.0.30
     protocol: O
     type: ''
-    uptime: 02:51:12
+    uptime: 03:00:29
 -   distance: ''
     mask: '32'
     metric: ''

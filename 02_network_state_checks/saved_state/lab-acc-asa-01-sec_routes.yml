@@ -1,26 +1,8 @@
-route_table:
+routes:
 -   distance: ''
     mask: 255.255.255.252
     metric: ''
-    network: 10.0.0.4
-    nexthopif: outside
-    nexthopip: ''
-    protocol: C
-    type: ''
-    uptime: ''
--   distance: ''
-    mask: 255.255.255.255
-    metric: ''
-    network: 10.0.0.6
-    nexthopif: outside
-    nexthopip: ''
-    protocol: L
-    type: ''
-    uptime: ''
--   distance: ''
-    mask: 255.255.255.252
-    metric: ''
-    network: 10.0.0.24
+    network: 10.0.0.12
     nexthopif: outside-1
     nexthopip: ''
     protocol: C
@@ -29,18 +11,27 @@ route_table:
 -   distance: ''
     mask: 255.255.255.255
     metric: ''
-    network: 10.0.0.26
+    network: 10.0.0.14
     nexthopif: outside-1
     nexthopip: ''
     protocol: L
     type: ''
     uptime: ''
--   distance: '1'
-    mask: 255.255.255.0
-    metric: '0'
-    network: 192.168.0.0
-    nexthopif: outside
-    nexthopip: 10.0.0.5
-    protocol: S
+-   distance: ''
+    mask: 255.255.255.252
+    metric: ''
+    network: 10.0.0.16
+    nexthopif: outside-2
+    nexthopip: ''
+    protocol: C
+    type: ''
+    uptime: ''
+-   distance: ''
+    mask: 255.255.255.255
+    metric: ''
+    network: 10.0.0.17
+    nexthopif: outside-2
+    nexthopip: ''
+    protocol: L
     type: ''
     uptime: ''
