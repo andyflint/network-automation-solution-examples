@@ -1,0 +1,5 @@
+digraph G {
+{% for neighbor in response %}
+  "{{inventory_hostname}}" -> "{{neighbor['neighbor']}}"
+{% endfor %}
+}

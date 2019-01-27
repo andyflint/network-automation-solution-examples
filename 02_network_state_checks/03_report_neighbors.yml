@@ -1,0 +1,19 @@
+---
+- name: Create Interface report
+  hosts: 
+    iosxe
+    nxos
+  gather_facts: no
+  vars:
+    - source_directory: saved_state
+ 
+  tasks:
+  - name: load variable from file
+    block:
+    - include_vars:
+       file: "{{source_directory}}/{{inventory_hostname}}_lldp.yml"
+    - name: Create report from template
+      template:
+        src: "report_templates/lldp_neighbores_dot.j2"
+        dest: "reports/{{inventory_hostname}}_lldp_neighbores.dot"
+    #when: ansible_network_os == 'asa'

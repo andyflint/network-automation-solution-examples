@@ -1,0 +1,4 @@
+digraph G {
+  "lab-acc-sw-01" -> "lab-core-sw-02"
+  "lab-acc-sw-01" -> "lab-core-sw-01"
+}
