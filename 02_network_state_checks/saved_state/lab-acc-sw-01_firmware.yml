@@ -8,5 +8,5 @@ firmware:
     running_image: packages.conf
     serial:
     - 97CR5LYPQ9X
-    uptime: 1 hour, 42 minutes
+    uptime: 1 hour, 46 minutes
     version: 16.6.1

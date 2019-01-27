@@ -16,9 +16,6 @@
         username: "{{ ansible_user }}"
         password: "{{ ansible_ssh_pass }}"
       register: result
-    
-    - set_fact:
-        firmware: "{{result}}"
 
     - name: Save Facts to {{result_directory}}
       copy:
