@@ -1,39 +1,36 @@
-changed: false
-failed: false
-response:
-- descr: 'NX-OSv Chassis '
-  name: Chassis
-  pid: N7K-C7018
-  sn: TB00020000B
-  vid: V00
-- descr: NX-OSv Supervisor Module
-  name: Slot 1
-  pid: N7K-SUP1
-  sn: TM00020000B
-  vid: V00
-- descr: NX-OSv Ethernet Module
-  name: Slot 2
-  pid: N7K-F248XP-25
-  sn: TM00020000C
-  vid: V00
-- descr: NX-OSv Ethernet Module
-  name: Slot 3
-  pid: N7K-F248XP-25
-  sn: TM00020000D
-  vid: V00
-- descr: NX-OSv Ethernet Module
-  name: Slot 4
-  pid: N7K-F248XP-25
-  sn: TM00020000E
-  vid: V00
-- descr: NX-OSv Chassis Power Supply
-  name: Slot 33
-  pid: ''
-  sn: ''
-  vid: V00
-- descr: NX-OSv Chassis Fan Module
-  name: Slot 35
-  pid: ''
-  sn: ''
-  vid: V00
-response_list: []
+inventory:
+-   descr: 'NX-OSv Chassis '
+    name: Chassis
+    pid: N7K-C7018
+    sn: TB00020000B
+    vid: V00
+-   descr: NX-OSv Supervisor Module
+    name: Slot 1
+    pid: N7K-SUP1
+    sn: TM00020000B
+    vid: V00
+-   descr: NX-OSv Ethernet Module
+    name: Slot 2
+    pid: N7K-F248XP-25
+    sn: TM00020000C
+    vid: V00
+-   descr: NX-OSv Ethernet Module
+    name: Slot 3
+    pid: N7K-F248XP-25
+    sn: TM00020000D
+    vid: V00
+-   descr: NX-OSv Ethernet Module
+    name: Slot 4
+    pid: N7K-F248XP-25
+    sn: TM00020000E
+    vid: V00
+-   descr: NX-OSv Chassis Power Supply
+    name: Slot 33
+    pid: ''
+    sn: ''
+    vid: V00
+-   descr: NX-OSv Chassis Fan Module
+    name: Slot 35
+    pid: ''
+    sn: ''
+    vid: V00

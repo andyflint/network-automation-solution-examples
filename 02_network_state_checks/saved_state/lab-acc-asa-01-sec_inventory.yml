@@ -1,9 +1,6 @@
-changed: false
-failed: false
-response:
-- descr: ASAv Adaptive Security Virtual Appliance
-  name: Chassis
-  pid: ASAv
-  sn: 9AWJ325UHBW
-  vid: V01
-response_list: []
+inventory:
+-   descr: ASAv Adaptive Security Virtual Appliance
+    name: Chassis
+    pid: ASAv
+    sn: 9AWJ325UHBW
+    vid: V01

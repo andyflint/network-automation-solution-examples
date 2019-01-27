@@ -1,2048 +1,2045 @@
-changed: false
-failed: false
-response:
-- address: 5e00.0002.0000
-  admin_state: ''
-  bandwidth: 1000000 Kbit
-  bia: 5e00.0002.0000
-  delay: 10 usec
-  description: OOB Management
-  duplex: full-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: mgmt0
-  ip_address: 172.16.1.11/24
-  link_status: up
-  mtu: '1500'
-  speed: 1000 Mb/s
-- address: fa16.3e00.0007
-  admin_state: up
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e77.e145
-  delay: 10 usec
-  description: to lab-core-sw-01
-  duplex: full-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/1
-  ip_address: 10.0.0.34/30
-  link_status: up
-  mtu: '1500'
-  speed: 1000 Mb/s
-- address: fa16.3e00.0008
-  admin_state: up
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e46.8b37
-  delay: 10 usec
-  description: to lab-core-sw-01
-  duplex: full-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/2
-  ip_address: 10.0.0.38/30
-  link_status: up
-  mtu: '1500'
-  speed: 1000 Mb/s
-- address: fa16.3e00.0009
-  admin_state: up
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e89.93c6
-  delay: 10 usec
-  description: to lab-acc-sw-01
-  duplex: full-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/3
-  ip_address: 10.0.0.30/30
-  link_status: up
-  mtu: '1500'
-  speed: 1000 Mb/s
-- address: fa16.3e00.000a
-  admin_state: up
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e59.31e9
-  delay: 10 usec
-  description: to lab-mgmt-asa-01
-  duplex: full-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/4
-  ip_address: 10.0.0.25/30
-  link_status: up
-  mtu: '1500'
-  speed: 1000 Mb/s
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/5
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/6
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/7
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/8
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/9
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/10
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/11
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/12
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/13
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/14
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/15
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/16
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/17
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/18
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/19
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/20
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/21
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/22
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/23
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/24
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/25
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/26
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/27
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/28
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/29
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/30
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/31
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/32
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/33
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/34
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/35
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/36
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/37
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/38
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/39
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/40
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/41
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/42
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/43
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/44
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/45
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/46
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/47
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet2/48
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.0007
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/1
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.0008
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/2
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.0009
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/3
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.000a
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/4
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/5
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/6
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/7
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/8
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/9
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/10
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/11
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/12
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/13
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/14
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/15
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/16
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/17
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/18
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/19
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/20
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/21
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/22
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/23
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/24
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/25
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/26
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/27
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/28
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/29
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/30
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/31
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/32
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/33
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/34
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/35
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/36
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/37
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/38
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/39
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/40
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/41
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/42
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/43
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/44
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/45
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/46
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/47
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet3/48
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.0007
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/1
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.0008
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/2
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.0009
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/3
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: fa16.3e00.000a
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/4
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/5
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/6
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/7
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/8
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/9
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/10
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/11
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/12
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/13
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/14
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/15
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/16
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/17
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/18
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/19
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/20
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/21
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/22
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/23
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/24
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/25
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/26
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/27
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/28
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/29
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/30
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/31
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/32
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/33
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/34
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/35
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/36
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/37
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/38
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/39
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/40
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/41
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/42
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/43
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/44
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/45
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/46
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/47
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: 0000.0000.002f
-  admin_state: down
-  bandwidth: 1000000 Kbit
-  bia: 0000.0000.0000
-  delay: 10 usec
-  description: ''
-  duplex: auto-duplex
-  encapsulation: ARPA
-  hardware_type: Ethernet
-  interface: Ethernet4/48
-  ip_address: ''
-  link_status: down (Administratively down)
-  mtu: '1500'
-  speed: auto-speed
-- address: ''
-  admin_state: ''
-  bandwidth: 8000000 Kbit
-  bia: ''
-  delay: 5000 usec
-  description: Loopback
-  duplex: ''
-  encapsulation: LOOPBACK
-  hardware_type: ''
-  interface: loopback0
-  ip_address: 192.168.0.11/32
-  link_status: up
-  mtu: '1500'
-  speed: ''
-response_list: []
+interfaces:
+-   address: 5e00.0002.0000
+    admin_state: ''
+    bandwidth: 1000000 Kbit
+    bia: 5e00.0002.0000
+    delay: 10 usec
+    description: OOB Management
+    duplex: full-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: mgmt0
+    ip_address: 172.16.1.11/24
+    link_status: up
+    mtu: '1500'
+    speed: 1000 Mb/s
+-   address: fa16.3e00.0007
+    admin_state: up
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e77.e145
+    delay: 10 usec
+    description: to lab-core-sw-01
+    duplex: full-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/1
+    ip_address: 10.0.0.34/30
+    link_status: up
+    mtu: '1500'
+    speed: 1000 Mb/s
+-   address: fa16.3e00.0008
+    admin_state: up
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e46.8b37
+    delay: 10 usec
+    description: to lab-core-sw-01
+    duplex: full-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/2
+    ip_address: 10.0.0.38/30
+    link_status: up
+    mtu: '1500'
+    speed: 1000 Mb/s
+-   address: fa16.3e00.0009
+    admin_state: up
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e89.93c6
+    delay: 10 usec
+    description: to lab-acc-sw-01
+    duplex: full-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/3
+    ip_address: 10.0.0.30/30
+    link_status: up
+    mtu: '1500'
+    speed: 1000 Mb/s
+-   address: fa16.3e00.000a
+    admin_state: up
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e59.31e9
+    delay: 10 usec
+    description: to lab-mgmt-asa-01
+    duplex: full-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/4
+    ip_address: 10.0.0.25/30
+    link_status: up
+    mtu: '1500'
+    speed: 1000 Mb/s
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/5
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/6
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/7
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/8
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/9
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/10
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/11
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/12
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/13
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/14
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/15
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/16
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/17
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/18
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/19
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/20
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/21
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/22
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/23
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/24
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/25
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/26
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/27
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/28
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/29
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/30
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/31
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/32
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/33
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/34
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/35
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/36
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/37
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/38
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/39
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/40
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/41
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/42
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/43
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/44
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/45
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/46
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/47
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet2/48
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.0007
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/1
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.0008
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/2
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.0009
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/3
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.000a
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/4
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/5
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/6
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/7
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/8
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/9
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/10
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/11
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/12
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/13
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/14
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/15
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/16
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/17
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/18
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/19
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/20
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/21
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/22
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/23
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/24
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/25
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/26
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/27
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/28
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/29
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/30
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/31
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/32
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/33
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/34
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/35
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/36
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/37
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/38
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/39
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/40
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/41
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/42
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/43
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/44
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/45
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/46
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/47
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet3/48
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.0007
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/1
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.0008
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/2
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.0009
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/3
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: fa16.3e00.000a
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/4
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/5
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/6
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/7
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/8
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/9
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/10
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/11
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/12
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/13
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/14
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/15
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/16
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/17
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/18
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/19
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/20
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/21
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/22
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/23
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/24
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/25
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/26
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/27
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/28
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/29
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/30
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/31
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/32
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/33
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/34
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/35
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/36
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/37
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/38
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/39
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/40
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/41
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/42
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/43
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/44
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/45
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/46
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/47
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: 0000.0000.002f
+    admin_state: down
+    bandwidth: 1000000 Kbit
+    bia: 0000.0000.0000
+    delay: 10 usec
+    description: ''
+    duplex: auto-duplex
+    encapsulation: ARPA
+    hardware_type: Ethernet
+    interface: Ethernet4/48
+    ip_address: ''
+    link_status: down (Administratively down)
+    mtu: '1500'
+    speed: auto-speed
+-   address: ''
+    admin_state: ''
+    bandwidth: 8000000 Kbit
+    bia: ''
+    delay: 5000 usec
+    description: Loopback
+    duplex: ''
+    encapsulation: LOOPBACK
+    hardware_type: ''
+    interface: loopback0
+    ip_address: 192.168.0.11/32
+    link_status: up
+    mtu: '1500'
+    speed: ''

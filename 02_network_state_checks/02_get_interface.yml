@@ -20,6 +20,7 @@
     - name: Save Facts to {{result_directory}}
       copy:
         content: |
-          {{result|to_nice_yaml(indent=2)}}
+          interfaces:
+          {{result['response']|to_nice_yaml}}
         dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
 #        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date
