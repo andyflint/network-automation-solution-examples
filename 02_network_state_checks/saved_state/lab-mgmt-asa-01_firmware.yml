@@ -1,24 +1,21 @@
-changed: false
-failed: false
-response:
-- cluster: Disabled
-  device_mgr_version: 7.8(2)
-  failover: Active/Standby
-  flash: 9216MB
-  hardware: ASAv, 2048 MB RAM, CPU Pentium II 2600 MHz
-  hostname: lab-mgmt-asa-01
-  image: boot:/asa982-smp-k8.bin
-  interfaces:
-  - Management0/0
-  - GigabitEthernet0/0
-  - GigabitEthernet0/1
-  last_mod: enable_15 at 19:29:20.114 UTC Tue Jan 15 2019
-  license_mode: Smart Licensing
-  license_state: Unlicensed
-  max_intf: ''
-  max_vlans: '50'
-  model: ASAv10
-  serial: 9A0F1U4FX33
-  uptime: 6 days 18 hours
-  version: 9.8(2)
-response_list: []
+firmware:
+-   cluster: Disabled
+    device_mgr_version: 7.8(2)
+    failover: Active/Standby
+    flash: 9216MB
+    hardware: ASAv, 2048 MB RAM, CPU Pentium II 2600 MHz
+    hostname: lab-mgmt-asa-01
+    image: boot:/asa982-smp-k8.bin
+    interfaces:
+    - Management0/0
+    - GigabitEthernet0/0
+    - GigabitEthernet0/1
+    last_mod: enable_15 at 19:29:20.114 UTC Tue Jan 15 2019
+    license_mode: Smart Licensing
+    license_state: Unlicensed
+    max_intf: ''
+    max_vlans: '50'
+    model: ASAv10
+    serial: 9A0F1U4FX33
+    uptime: 14 days 20 hours
+    version: 9.8(2)

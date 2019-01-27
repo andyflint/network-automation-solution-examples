@@ -8,15 +8,15 @@
 <body>
   <h1>{{ansible_net_hostname}} Interface report</h1>
 {% if ansible_network_os == 'asa' %}
-  Uptime: {{firmware['response'][0]['uptime']}} | Version: {{firmware['response'][0]['version']}} <br />
-  Model: {{firmware['response'][0]['model']}} | Hardware: {{firmware['response'][0]['hardware']}}
+  Uptime: {{firmware[0]['uptime']}} | Version: {{firmware[0]['version']}} <br />
+  Model: {{firmware[0]['model']}} | Hardware: {{firmware[0]['hardware']}}
 {% endif %}
 {% if ansible_network_os == 'ios' %}
-  Uptime: {{firmware['response'][0]['uptime']}} | Version: {{firmware['response'][0]['version']}} <br />
-  Model: {{firmware['response'][0]['rommon']}} | Hardware: {{firmware['response'][0]['hardware']}}
+  Uptime: {{firmware[0]['uptime']}} | Version: {{firmware[0]['version']}} <br />
+  Model: {{firmware[0]['rommon']}} | Hardware: {{firmware[0]['hardware']}}
 {% endif %}
 {% if ansible_network_os == 'nxos' %}
-  Uptime: {{firmware['response'][0]['uptime']}} | Version: {{os}} <br />
+  Uptime: {{firmware[0]['uptime']}} | Version: {{os}} <br />
   Platform: {{platform}}
 {% endif %}
   <table class="pure-table">

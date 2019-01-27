@@ -1,9 +1,6 @@
-changed: false
-failed: false
-response:
-- boot_image: bootflash:///titanium-d1-kickstart.7.3.0.D1.1.bin
-  last_reboot_reason: ''
-  os: 7.3(0)D1(1)
-  platform: ''
-  uptime: 6 day(s), 18 hour(s), 47 minute(s), 8 second(s)
-response_list: []
+firmware:
+-   boot_image: bootflash:///titanium-d1-kickstart.7.3.0.D1.1.bin
+    last_reboot_reason: ''
+    os: 7.3(0)D1(1)
+    platform: ''
+    uptime: 14 day(s), 20 hour(s), 55 minute(s), 8 second(s)

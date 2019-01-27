@@ -16,10 +16,14 @@
         username: "{{ ansible_user }}"
         password: "{{ ansible_ssh_pass }}"
       register: result
+    
+    - set_fact:
+        firmware: "{{result}}"
 
     - name: Save Facts to {{result_directory}}
       copy:
         content: |
-          {{result|to_nice_yaml(indent=2)}}
+          firmware:
+          {{result['response']|to_nice_yaml}}
         dest: "{{result_directory}}/{{inventory_hostname}}{{suffix}}.yml"
 #        dest: "{{result_directory}}/{{inventory_hostname}}_{{date}}{{suffix}}_facts.yml" #save with date
