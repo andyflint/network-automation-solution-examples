@@ -15,7 +15,7 @@
           privilege_level: "{{result_get.stdout_lines[0][1].split(': ')[1]}}"
       when: ansible_network_os == 'asa'
 
-    - name: get current priv level (become:yes)
+    - name: Config auto-enable
       become: yes
       become_method: enable
       block:
@@ -26,4 +26,5 @@
       - asa_config:
           lines: 
             - "aaa authorization exec LOCAL auto-enable"
-      when: privilege_level == "1" and ansible_network_os == 'asa'
+        when: privilege_level == "1"
+      when: ansible_network_os == 'asa'
