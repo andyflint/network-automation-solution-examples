@@ -8,7 +8,7 @@
     - source_directory: saved_state
  
   tasks:
-  - name: load variable from file
+  - name: create graph
     block:
     - include_vars:
        file: "{{source_directory}}/{{inventory_hostname}}_lldp_neighbors.yml"
@@ -18,3 +18,10 @@
         dest: "reports/{{inventory_hostname}}_lldp_neighbors.dot"
     - name: Generate SVG from DOT
       local_action: "shell dot -Tsvg reports/{{inventory_hostname}}_lldp_neighbors.dot -o reports/{{inventory_hostname}}_lldp_neighbors.svg"
+
+    - name: Create report from template
+      template:
+        src: "report_templates/lldp_neighbors_subgraph_dot.j2"
+        dest: "reports/{{inventory_hostname}}_lldp_neighbors_subgraph.dot"
+    - name: Generate SVG from DOT
+      local_action: "shell dot -Tsvg reports/{{inventory_hostname}}_lldp_neighbors_subgraph.dot -o reports/{{inventory_hostname}}_lldp_neighbors_subgraph.svg"

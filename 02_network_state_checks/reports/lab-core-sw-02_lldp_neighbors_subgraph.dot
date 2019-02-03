@@ -1,0 +1,33 @@
+graph G {
+  rankdir = LR
+  node [shape = square];
+  subgraph "clusterlab-core-sw-02" {
+    label = "lab-core-sw-02"
+    edge[style=invis];
+          node [label="Eth2/1"]"lab-core-sw-02-Eth2/1"
+          node [label="Eth2/2"]"lab-core-sw-02-Eth2/2"
+          node [label="Eth2/3"]"lab-core-sw-02-Eth2/3"
+        { rank=same;
+          "lab-core-sw-02-Eth2/1";           "lab-core-sw-02-Eth2/2";           "lab-core-sw-02-Eth2/3"    }
+          "lab-core-sw-02-Eth2/1" --           "lab-core-sw-02-Eth2/2" --           "lab-core-sw-02-Eth2/3"      }
+      subgraph "clusterlab-core-sw-01" {
+      label = "lab-core-sw-01"
+                  node [label="Eth2/1"]"lab-core-sw-01-Eth2/1"
+                        node [label="Eth2/2"]"lab-core-sw-01-Eth2/2"
+                       
+    }
+      subgraph "clusterlab-core-sw-01" {
+      label = "lab-core-sw-01"
+                  node [label="Eth2/1"]"lab-core-sw-01-Eth2/1"
+                        node [label="Eth2/2"]"lab-core-sw-01-Eth2/2"
+                       
+    }
+      subgraph "clusterlab-acc-sw-01" {
+      label = "lab-acc-sw-01"
+                                      node [label="Gi3"]"lab-acc-sw-01-Gi3"
+             
+    }
+    "lab-core-sw-02-Eth2/1" -- "lab-core-sw-01-Eth2/1" 
+  "lab-core-sw-02-Eth2/2" -- "lab-core-sw-01-Eth2/2" 
+  "lab-core-sw-02-Eth2/3" -- "lab-acc-sw-01-Gi3" 
+}

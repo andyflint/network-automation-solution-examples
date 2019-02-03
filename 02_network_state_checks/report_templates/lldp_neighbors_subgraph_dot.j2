@@ -1,0 +1,32 @@
+graph G {
+  rankdir = LR
+  node [shape = square];
+  subgraph "cluster{{inventory_hostname}}" {
+    label = "{{inventory_hostname}}"
+    edge[style=invis];
+    {% for neighbor in lldp_neighbors %}
+      node [label="{{neighbor['local_interface']}}"]"{{inventory_hostname}}-{{neighbor['local_interface']}}"
+    {% endfor %}
+    { rank=same;
+    {% for neighbor in lldp_neighbors %}
+      "{{inventory_hostname}}-{{neighbor['local_interface']}}"{% if not loop.last %}; {% endif %}
+    {% endfor %}}
+    {% for neighbor in lldp_neighbors %}
+      "{{inventory_hostname}}-{{neighbor['local_interface']}}"{% if not loop.last %} -- {% endif %}
+    {% endfor %}
+  }
+  {% for neighbor_outer in lldp_neighbors %}
+    subgraph "cluster{{neighbor_outer['neighbor']}}" {
+      label = "{{neighbor_outer['neighbor']}}"
+    {% for neighbor_inner in lldp_neighbors %}
+      {% if neighbor_outer['neighbor'] == neighbor_inner['neighbor'] %}
+        node [label="{{neighbor_inner['neighbor_interface']}}"]"{{neighbor_inner['neighbor']}}-{{neighbor_inner['neighbor_interface']}}"
+      {% endif %}
+    {% endfor %}
+   
+    }
+  {% endfor %}
+{% for neighbor in lldp_neighbors %}
+  "{{inventory_hostname}}-{{neighbor['local_interface']}}" -- "{{neighbor['neighbor']}}-{{neighbor['neighbor_interface']}}" 
+{% endfor %}
+}
