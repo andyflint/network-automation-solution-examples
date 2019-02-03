@@ -26,4 +26,4 @@
       - asa_config:
           lines: 
             - "aaa authorization exec LOCAL auto-enable"
-      when: privilege_level == "1"
+      when: privilege_level == "1" and ansible_network_os == 'asa'
