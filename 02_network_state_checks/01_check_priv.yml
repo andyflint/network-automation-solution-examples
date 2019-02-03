@@ -4,25 +4,28 @@
 
   tasks:
     - name: get current priv level ASA
-      asa_command:
-        commands:
-          - show curpriv
-      register: result
-      when: ansible_network_os == 'asa'
-    
-    - debug:
-        msg: "hostname {{inventory_hostname}} has privilege level {{result.stdout_lines[0][1].split(': ')[1]}}"
+      block:
+      - asa_command:
+          commands:
+            - show curpriv
+        register: result_get
+      - debug:
+          msg: "hostname {{inventory_hostname}} has privilege level {{result_get.stdout_lines[0][1].split(': ')[1]}}"
+      - set_fact: 
+          privilege_level: "{{result_get.stdout_lines[0][1].split(': ')[1]}}"
       when: ansible_network_os == 'asa'
 
     - name: get current priv level (become:yes)
       become: yes
       become_method: enable
-      asa_command:
-        commands:
-          - show curpriv
-      register: result
-      when: ansible_network_os == 'asa'
-    
-    - debug:
-        msg: "hostname {{inventory_hostname}} has privilege level {{result.stdout_lines[0][1].split(': ')[1]}}"
-      when: ansible_network_os == 'asa'
+      block:
+      - asa_command:
+          commands:
+            - show curpriv
+        register: result
+      - debug:
+          msg: "hostname {{inventory_hostname}} has privilege level {{result.stdout_lines[0][1].split(': ')[1]}}"
+      - asa_config:
+          lines: 
+            - "aaa authorization exec LOCAL auto-enable"
+      when: privilege_level == "1"
