@@ -9,18 +9,28 @@ We will also collect the running configuration and save this in a file.
 
 - 01_ are playbooks which do prechecks
 - 02_ are playbooks which get information and save them
-- 03_ handle with saved information to create reports
+- 03_ handle with saved information to generate reports
 
 ## 01 Pre Checks
 
-- 01_check_lldp
-- 01_check_priv
+### 01_check_lldp
+
+Check if LLDP is enable, if not it will be enabled.
+
+### 01_check_priv
+
+Check if privilege level is 15 after login to ASA, if not ist configured auto-enable
 
 ## 02 Get Facts
 
-### Get Facts
+[Networktocode](https://github.com/networktocode) publish TextFSM filter [templates](https://github.com/networktocode/ntc-templates/tree/master/templates) for different network device on there github account.
+which can be used with [ntc_ansible](https://github.com/networktocode/ntc-ansible) to get structured information direct from the CLI. Follow the instruction details on the github site.
+In our lab we will use this tool to get information from the networkd devices and save then for later reports.
+
+### 02_get_facts
 
 We will use the with ansible delivered modules for IOS and NXOS to get the facts (which include hostname, managment IP, modell, firmware, a list of interfaces and IP addresses) from the network devices.
+All gathered facts will be saved in folder *saved_state* in file with suffix *_facts*.
 
 #### Issues
 
@@ -30,31 +40,26 @@ The ASAv version in the VIRL lab have a bug that a as privilege 15 configured us
 With the playbook 01_check_privilege we can check the current privilege level for ASA. We can use the "become: yes" and "become_mode: enable" to escalte the privilege level to privilege 15. The enable password need to save in the inventory file in the variable ansible_become_pass.
 The variables ansible_become and ansible_become_mode did not work with asa_facts.
 
-### Get routing information
+### 02_get_firmware
 
-There is no module in place to get the routing information so we use *_command to the raw output from the CLI.
+Gather information from *show version* with *ntc_show_command*.
+All gathered facts will be saved in folder *saved_state* in file with suffix *_firmware*.
 
-#### Structure routing information
+### 02_get_lldp_neighbors
 
-[Networktocode](https://github.com/networktocode) publish TextFSM filter [templates](https://github.com/networktocode/ntc-templates/tree/master/templates) for different network device on there github account.
-In our lab we can use:
+Gather information from *show lldp neighbore*"* with *ntc_show_command*.
+All gathered facts will be saved in folder *saved_state* in file with suffix *_lldp_neighbors*.
 
-- [cisco_asa_show_route.template](https://github.com/networktocode/ntc-templates/blob/master/templates/cisco_asa_show_route.template)
-- [cisco_ios_show_ip_route.template](https://github.com/networktocode/ntc-templates/blob/master/templates/cisco_ios_show_ip_route.template)
-- [cisco_nxos_show_ip_route.template](https://github.com/networktocode/ntc-templates/blob/master/templates/cisco_nxos_show_ip_route.template)
+## Create Reports
 
-With [ntc_ansible](https://github.com/networktocode/ntc-ansible) we can get structured information direct from the CLI. Follow the instruction details on the github site.
+### 03_report_facts_interfaces
 
-### Get ping result
+Create a report based on the information from *02_get_facts* and **02_get_firmware** as an HTML table and save it the folder *reports* with suffix *_interfaces.html*.
+I use a CSS framework for a nice looking report like: [Milligram](https://milligram.io/)
 
-To do an ICMP reachabilty test we use the net_ping module.
+At first the saved state information will be loaded with the **include_vars** module and will then rentered with the *template* module.
 
-#### Issue
+### 03_report_neighbors
 
-There is implementation module net_ping for asa. We need to get the raw data with asa_command.
-
-### Report Interface State
-
-#### CSS framwork
-
-We can use a CSS framework for a nice looking report like: [Milligram](https://milligram.io/t)
+Create a network diagram based on information from *03_report_neighbors* as *dot* file and render them to a *SVG*.
+I create two different template one that use the *record shape* to group the interfaces to a devices and one which work with subgraphes for grouping.
