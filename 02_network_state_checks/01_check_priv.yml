@@ -23,8 +23,6 @@
           commands:
             - show curpriv
         register: result
-      - debug:
-          msg: "hostname {{inventory_hostname}} has privilege level {{result.stdout_lines[0][1].split(': ')[1]}}"
       - asa_config:
           lines: 
             - "aaa authorization exec LOCAL auto-enable"
